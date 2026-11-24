@@ -116,7 +116,9 @@
           "Povezivao odluke o roadmapu s izvedivim razvojnim aktivnostima"
         ],
         "lesson": "Najbolji roadmap je onaj koji tim stvarno može isporučiti i koji rješava poslovni problem."
-      }
+      },
+      "image": "assets/projects/spryker-mstart-banner.webp",
+      "image_alt": "AI-generated conceptual illustration of a Spryker-branded grocery webshop"
     },
     {
       "id": "konzum-commerce-relaunch",
