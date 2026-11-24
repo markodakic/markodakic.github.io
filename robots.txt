@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://markodakic.github.io/sitemap.xml
