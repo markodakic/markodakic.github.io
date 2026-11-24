@@ -326,3 +326,7 @@ html[data-theme='dark'] .work-card .company-lockup img{background:#fff;border-co
 .company-lockup img[src$="/croatia-osiguranje.svg"]{padding:5px;object-fit:contain}
 html[data-theme='dark'] .hero-copy .hello{background:#312C38;border-color:#51475B;color:#F8EDE8}
 html[data-theme='dark'] .cap-grid .cap:nth-child(2){background:#293A4F}
+
+/* Clearly identified illustrative case visuals */
+.project-real-visual-detail .concept-caption{padding:13px 20px;border-top:1px solid var(--line);font-size:.83rem;line-height:1.5;color:var(--muted,#64748b);background:var(--surface,#fff);text-align:left}
+.project-real-visual-detail img[src$="-concept.svg"]{width:100%;max-height:none;aspect-ratio:1600/650;object-fit:cover}
