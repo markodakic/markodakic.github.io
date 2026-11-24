@@ -368,3 +368,19 @@ html[data-theme='dark'] .cap-grid .cap:nth-child(2){background:#293A4F}
   .hero{padding-top:18px}
   .hero-roleline{margin-top:7px}
 }
+
+/* Mobile fix: keep decorative arrow behind content and hide it on small screens */
+.forward-inner > .forward-top,.forward-inner > h2,.forward-inner > p{position:relative;z-index:1}
+.forward-inner > .forward-decor{z-index:0}
+@media (max-width:900px){
+  .forward-inner > .forward-decor{display:none}
+}
+@media (max-width:760px){
+  .forward-inner{padding:26px 22px}
+  .forward-inner h2{font-size:clamp(29px,7.7vw,37px);line-height:1.15;letter-spacing:-.035em;max-width:100%;overflow-wrap:break-word;margin:18px 0 20px}
+  .forward-inner p{max-width:100%;font-size:15px;line-height:1.65}
+}
+@media (max-width:380px){
+  .forward-inner{padding:24px 19px}
+  .forward-inner h2{font-size:29px}
+}
