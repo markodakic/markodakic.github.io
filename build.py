@@ -61,7 +61,8 @@ def project_visual(p, prefix='', detail=False):
     css = 'project-real-visual project-real-visual-detail' if detail else 'project-real-visual project-card-visual'
     disclosure = 'Project photo' if p.get('id') == 'ekupi-outdoor-parcel-lockers' else 'AI-generated image'
     caption = f'<figcaption class="concept-caption">{disclosure}</figcaption>' if detail else ''
-    return f'<figure class="{css}"><div class="project-image-media"><img src="{prefix}{esc(path)}" alt="{esc(alt)}" loading="lazy" decoding="async"><span class="project-image-overlay" aria-hidden="true">{disclosure}</span></div>{caption}</figure>'
+    overlay = "" if detail and p.get("id") == "konzum-pampers-club" else f'<span class="project-image-overlay" aria-hidden="true">{disclosure}</span>'
+    return f'<figure class="{css}"><div class="project-image-media"><img src="{prefix}{esc(path)}" alt="{esc(alt)}" loading="lazy" decoding="async">{overlay}</div>{caption}</figure>'
 
 def project_card(p,prefix='',i=0):
     d=p['en'];h=p['hr']; tags=' '.join(p['category']);
