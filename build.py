@@ -59,7 +59,12 @@ def project_visual(p, prefix='', detail=False):
         return ''
     alt = str(p.get('image_alt') or f"Project visual: {p['company']}")
     css = 'project-real-visual project-real-visual-detail' if detail else 'project-real-visual'
-    return f'<figure class="{css}"><img src="{prefix}{esc(path)}" alt="{esc(alt)}" loading="lazy"></figure>'
+    note = ''
+    if p.get('id') == 'spryker-mstart':
+        css += ' ' + ('project-card-visual' if not detail else '')
+        caption_css = 'concept-caption' if detail else 'card-ai-note'
+        note = f'<figcaption class="{caption_css}">{t("AI-generated image", "AI-generated image")}</figcaption>'
+    return f'<figure class="{css.strip()}"><img src="{prefix}{esc(path)}" alt="{esc(alt)}" loading="lazy">{note}</figure>'
 
 def project_card(p,prefix='',i=0):
     d=p['en'];h=p['hr']; tags=' '.join(p['category']);
