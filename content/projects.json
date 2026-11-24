@@ -1,69 +1,714 @@
 {
   "projects": [
     {
-      "id": "ekupi-outdoor-parcel-lockers", "company": "eKupi", "period": "2020–2021", "featured": true, "category": ["ecommerce", "logistics", "delivery"], "mark": "24/7", "accent": "apricot", "metric": "24/7 pickup concept",
-      "en": {"title": "Outdoor parcel lockers", "summary": "From an idea on paper to a physical, digital and logistics service.", "challenge": "Expanding online shopping meant offering a more flexible way for customers to collect parcels. The challenge was not just to install a cabinet: hardware, custom software, transport, infrastructure and operational processes had to work together.", "why": "A collection service only works when the customer journey and the behind-the-scenes logistics process are both reliable.", "role": ["Led the initiative from concept through installation", "Defined project phases, milestones and requirements", "Coordinated technical, operational and external partners"], "work": ["Worked with the manufacturer on hardware, software and outdoor construction requirements for the region", "Coordinated international transport and site-related implementation activities", "Defined the logistics processes for the outdoor locker service", "Coordinated custom software and integration requirements with the eCommerce environment"], "results": ["Supported implementation of an outdoor collection solution designed for around-the-clock parcel pickup", "Connected the physical pickup experience with the software and logistics work needed to operate it"], "lesson": "The real product is the complete service, not only the technology people can see."},
-      "hr": {"title": "Outdoor paketomati", "summary": "Od ideje do fizičke, digitalne i logističke usluge.", "challenge": "Rast online kupnje tražio je fleksibilniji način preuzimanja pošiljaka. Izazov nije bio samo postaviti paketomat: hardver, prilagođeni softver, transport, infrastruktura i operativni procesi morali su raditi kao jedna cjelina.", "why": "Usluga preuzimanja funkcionira tek kad su i korisnički put i logistički proces u pozadini pouzdani.", "role": ["Vodio inicijativu od koncepta do montaže", "Definirao faze projekta, ključne rokove i zahtjeve", "Koordinirao tehničke, operativne i vanjske partnere"], "work": ["S proizvođačem usklađivao hardver, softver i konstrukcijske zahtjeve za vanjsku upotrebu", "Koordinirao međunarodni transport i provedbu na lokacijama", "Definirao logističke procese usluge paketomata", "Koordinirao zahtjeve prilagođenog softvera i povezivanja s eCommerce okruženjem"], "results": ["Sudjelovao u realizaciji rješenja namijenjenog preuzimanju pošiljaka 24 sata dnevno", "Povezao fizičko preuzimanje s potrebnim softverskim i logističkim procesima"], "lesson": "Pravi proizvod je cjelokupna usluga, a ne samo tehnologija koju korisnik vidi."}
+      "id": "ekupi-outdoor-parcel-lockers",
+      "company": "eKupi",
+      "period": "2020–2021",
+      "featured": true,
+      "category": [
+        "ecommerce",
+        "logistics",
+        "delivery"
+      ],
+      "mark": "24/7",
+      "accent": "apricot",
+      "metric": "24/7 pickup concept",
+      "en": {
+        "title": "Outdoor parcel lockers",
+        "summary": "From an idea on paper to a physical, digital and logistics service.",
+        "challenge": "Expanding online shopping meant offering a more flexible way for customers to collect parcels. The challenge was not just to install a cabinet: hardware, custom software, transport, infrastructure and operational processes had to work together.",
+        "why": "A collection service only works when the customer journey and the behind-the-scenes logistics process are both reliable.",
+        "role": [
+          "Led the initiative from concept through installation",
+          "Defined project phases, milestones and requirements",
+          "Coordinated technical, operational and external partners"
+        ],
+        "work": [
+          "Worked with the manufacturer on hardware, software and outdoor construction requirements for the region",
+          "Coordinated international transport and site-related implementation activities",
+          "Defined the logistics processes for the outdoor locker service",
+          "Coordinated custom software and integration requirements with the eCommerce environment"
+        ],
+        "results": [
+          "Supported implementation of an outdoor collection solution designed for around-the-clock parcel pickup",
+          "Connected the physical pickup experience with the software and logistics work needed to operate it"
+        ],
+        "lesson": "The real product is the complete service, not only the technology people can see."
+      },
+      "hr": {
+        "title": "Outdoor paketomati",
+        "summary": "Od ideje do fizičke, digitalne i logističke usluge.",
+        "challenge": "Rast online kupnje tražio je fleksibilniji način preuzimanja pošiljaka. Izazov nije bio samo postaviti paketomat: hardver, prilagođeni softver, transport, infrastruktura i operativni procesi morali su raditi kao jedna cjelina.",
+        "why": "Usluga preuzimanja funkcionira tek kad su i korisnički put i logistički proces u pozadini pouzdani.",
+        "role": [
+          "Vodio inicijativu od koncepta do montaže",
+          "Definirao faze projekta, ključne rokove i zahtjeve",
+          "Koordinirao tehničke, operativne i vanjske partnere"
+        ],
+        "work": [
+          "S proizvođačem usklađivao hardver, softver i konstrukcijske zahtjeve za vanjsku upotrebu",
+          "Koordinirao međunarodni transport i provedbu na lokacijama",
+          "Definirao logističke procese usluge paketomata",
+          "Koordinirao zahtjeve prilagođenog softvera i povezivanja s eCommerce okruženjem"
+        ],
+        "results": [
+          "Sudjelovao u realizaciji rješenja namijenjenog preuzimanju pošiljaka 24 sata dnevno",
+          "Povezao fizičko preuzimanje s potrebnim softverskim i logističkim procesima"
+        ],
+        "lesson": "Pravi proizvod je cjelokupna usluga, a ne samo tehnologija koju korisnik vidi."
+      },
+      "image": "assets/projects/ekupi-outdoor-parcel-lockers.png",
+      "image_alt": "eKupi outdoor parcel locker with orange mascot, photographed at the project installation"
     },
     {
-      "id": "spryker-mstart", "company": "mStart", "period": "2021–2025", "featured": true, "category": ["ecommerce", "platform", "delivery"], "mark": "S", "accent": "lavender", "metric": "Enterprise commerce",
-      "en": {"title": "Enterprise commerce delivery with Spryker", "summary": "Managing priorities and delivery across a modern, integration-heavy eCommerce platform.", "challenge": "Enterprise commerce development needs to reconcile business priorities, platform capabilities, complex integrations and delivery capacity over many iterations.", "why": "Even strong technology underperforms when teams and stakeholders are not aligned on scope, dependencies and measurable user value.", "role": ["E-commerce Project / Product Manager", "Owned planning, backlog coordination and stakeholder alignment within delivery scope", "Worked closely with engineering and business teams"], "work": ["Translated business needs into delivery-ready items and MVP scope", "Coordinated releases, sprint-level priorities and integration dependencies", "Aligned internal stakeholders and technical teams on constraints and sequencing", "Contributed to adapting platform capabilities to real retail and operational processes"], "results": ["Managed sustained delivery work on a Spryker-based eCommerce platform", "Supported an approach that connected roadmap decisions with implementable work"], "lesson": "The most valuable roadmap is one that teams can actually deliver and that solves a business problem."},
-      "hr": {"title": "Enterprise eCommerce na Sprykeru", "summary": "Upravljanje prioritetima i isporukom na modernoj eCommerce platformi s brojnim integracijama.", "challenge": "Razvoj enterprise trgovine stalno usklađuje poslovne prioritete, mogućnosti platforme, složene integracije i kapacitet timova.", "why": "Ni dobra tehnologija ne donosi vrijednost ako timovi i dionici nisu usklađeni oko opsega, ovisnosti i koristi za korisnika.", "role": ["eCommerce Project / Product Manager", "Odgovornost za planiranje, koordinaciju backloga i dionika unutar opsega isporuke", "Bliska suradnja s razvojnim i poslovnim timovima"], "work": ["Prevođenje poslovnih potreba u razvojne zadatke i MVP opseg", "Koordinacija izdanja, sprint prioriteta i ovisnosti integracija", "Usklađivanje poslovnih i tehničkih timova oko ograničenja i redoslijeda", "Prilagodba mogućnosti platforme stvarnim retail i operativnim procesima"], "results": ["Vodio kontinuiranu isporuku na eCommerce platformi temeljenoj na Sprykeru", "Povezivao odluke o roadmapu s izvedivim razvojnim aktivnostima"], "lesson": "Najbolji roadmap je onaj koji tim stvarno može isporučiti i koji rješava poslovni problem."}
+      "id": "spryker-mstart",
+      "company": "mStart",
+      "period": "2021–2025",
+      "featured": true,
+      "category": [
+        "ecommerce",
+        "platform",
+        "delivery"
+      ],
+      "mark": "S",
+      "accent": "lavender",
+      "metric": "Enterprise commerce",
+      "en": {
+        "title": "Enterprise commerce delivery with Spryker",
+        "summary": "Managing priorities and delivery across a modern, integration-heavy eCommerce platform.",
+        "challenge": "Enterprise commerce development needs to reconcile business priorities, platform capabilities, complex integrations and delivery capacity over many iterations.",
+        "why": "Even strong technology underperforms when teams and stakeholders are not aligned on scope, dependencies and measurable user value.",
+        "role": [
+          "E-commerce Project / Product Manager",
+          "Owned planning, backlog coordination and stakeholder alignment within delivery scope",
+          "Worked closely with engineering and business teams"
+        ],
+        "work": [
+          "Translated business needs into delivery-ready items and MVP scope",
+          "Coordinated releases, sprint-level priorities and integration dependencies",
+          "Aligned internal stakeholders and technical teams on constraints and sequencing",
+          "Contributed to adapting platform capabilities to real retail and operational processes"
+        ],
+        "results": [
+          "Managed sustained delivery work on a Spryker-based eCommerce platform",
+          "Supported an approach that connected roadmap decisions with implementable work"
+        ],
+        "lesson": "The most valuable roadmap is one that teams can actually deliver and that solves a business problem."
+      },
+      "hr": {
+        "title": "Enterprise eCommerce na Sprykeru",
+        "summary": "Upravljanje prioritetima i isporukom na modernoj eCommerce platformi s brojnim integracijama.",
+        "challenge": "Razvoj enterprise trgovine stalno usklađuje poslovne prioritete, mogućnosti platforme, složene integracije i kapacitet timova.",
+        "why": "Ni dobra tehnologija ne donosi vrijednost ako timovi i dionici nisu usklađeni oko opsega, ovisnosti i koristi za korisnika.",
+        "role": [
+          "eCommerce Project / Product Manager",
+          "Odgovornost za planiranje, koordinaciju backloga i dionika unutar opsega isporuke",
+          "Bliska suradnja s razvojnim i poslovnim timovima"
+        ],
+        "work": [
+          "Prevođenje poslovnih potreba u razvojne zadatke i MVP opseg",
+          "Koordinacija izdanja, sprint prioriteta i ovisnosti integracija",
+          "Usklađivanje poslovnih i tehničkih timova oko ograničenja i redoslijeda",
+          "Prilagodba mogućnosti platforme stvarnim retail i operativnim procesima"
+        ],
+        "results": [
+          "Vodio kontinuiranu isporuku na eCommerce platformi temeljenoj na Sprykeru",
+          "Povezivao odluke o roadmapu s izvedivim razvojnim aktivnostima"
+        ],
+        "lesson": "Najbolji roadmap je onaj koji tim stvarno može isporučiti i koji rješava poslovni problem."
+      }
     },
     {
-      "id": "konzum-commerce-relaunch", "company": "Konzum", "period": "2017–2020", "featured": true, "category": ["ecommerce", "platform", "delivery"], "mark": "K", "accent": "mint", "metric": "Web + mobile",
-      "en": {"title": "Konzum Online — platform relaunch", "summary": "Connecting retail operations and technology behind a refreshed online shopping experience.", "challenge": "A large grocery retailer needed an online platform that could support real-world retail, delivery and store operations, not just an attractive storefront.", "why": "Grocery eCommerce has operational complexity: availability, delivery, picking, checkout and internal systems must remain aligned.", "role": ["Head of eCommerce IT / project lead for the IT scope", "Defined business and logistics requirements", "Coordinated internal teams, external vendors and development delivery"], "work": ["Helped define business and logistics processes for the refreshed Konzum Online solution", "Prepared functional documentation for web and mobile features", "Coordinated technical teams and integration dependencies", "Connected operational stakeholders and software delivery"], "results": ["Contributed to the relaunch of the Konzum online shopping platform", "Helped establish the process and system requirements supporting web and mobile commerce"], "lesson": "A webshop is the visible tip of a much larger retail operating model."},
-      "hr": {"title": "Konzum Online — razvoj platforme", "summary": "Povezivanje maloprodajnih procesa i tehnologije iza modernijeg online iskustva kupnje.", "challenge": "Velikom maloprodajnom sustavu treba online platforma koja podržava stvarne procese trgovina, dostave i skladišta, a ne samo dobar izgled webshopa.", "why": "Online kupnja namirnica operativno je složena: raspoloživost, dostava, priprema narudžbi, plaćanje i interni sustavi moraju biti povezani.", "role": ["Voditelj IT-a za eCommerce / voditelj IT dijela projekta", "Definirao poslovne i logističke zahtjeve", "Koordinirao interne timove, dobavljače i razvoj"], "work": ["Sudjelovao u definiranju poslovnih i logističkih procesa novog Konzum Online rješenja", "Pripremao funkcionalnu dokumentaciju za web i mobilne funkcionalnosti", "Koordinirao tehničke timove i integracije", "Povezivao operativne dionike i isporuku softvera"], "results": ["Sudjelovao u relaunchu platforme za online kupnju", "Pomogao definirati procese i sistemske zahtjeve za web i mobilnu trgovinu"], "lesson": "Webshop je samo vidljivi dio puno većeg operativnog modela maloprodaje."}
+      "id": "konzum-commerce-relaunch",
+      "company": "Konzum",
+      "period": "2017–2020",
+      "featured": true,
+      "category": [
+        "ecommerce",
+        "platform",
+        "delivery"
+      ],
+      "mark": "K",
+      "accent": "mint",
+      "metric": "Web + mobile",
+      "en": {
+        "title": "Konzum Online — platform relaunch",
+        "summary": "Connecting retail operations and technology behind a refreshed online shopping experience.",
+        "challenge": "A large grocery retailer needed an online platform that could support real-world retail, delivery and store operations, not just an attractive storefront.",
+        "why": "Grocery eCommerce has operational complexity: availability, delivery, picking, checkout and internal systems must remain aligned.",
+        "role": [
+          "Head of eCommerce IT / project lead for the IT scope",
+          "Defined business and logistics requirements",
+          "Coordinated internal teams, external vendors and development delivery"
+        ],
+        "work": [
+          "Helped define business and logistics processes for the refreshed Konzum Online solution",
+          "Prepared functional documentation for web and mobile features",
+          "Coordinated technical teams and integration dependencies",
+          "Connected operational stakeholders and software delivery"
+        ],
+        "results": [
+          "Contributed to the relaunch of the Konzum online shopping platform",
+          "Helped establish the process and system requirements supporting web and mobile commerce"
+        ],
+        "lesson": "A webshop is the visible tip of a much larger retail operating model."
+      },
+      "hr": {
+        "title": "Konzum Online — razvoj platforme",
+        "summary": "Povezivanje maloprodajnih procesa i tehnologije iza modernijeg online iskustva kupnje.",
+        "challenge": "Velikom maloprodajnom sustavu treba online platforma koja podržava stvarne procese trgovina, dostave i skladišta, a ne samo dobar izgled webshopa.",
+        "why": "Online kupnja namirnica operativno je složena: raspoloživost, dostava, priprema narudžbi, plaćanje i interni sustavi moraju biti povezani.",
+        "role": [
+          "Voditelj IT-a za eCommerce / voditelj IT dijela projekta",
+          "Definirao poslovne i logističke zahtjeve",
+          "Koordinirao interne timove, dobavljače i razvoj"
+        ],
+        "work": [
+          "Sudjelovao u definiranju poslovnih i logističkih procesa novog Konzum Online rješenja",
+          "Pripremao funkcionalnu dokumentaciju za web i mobilne funkcionalnosti",
+          "Koordinirao tehničke timove i integracije",
+          "Povezivao operativne dionike i isporuku softvera"
+        ],
+        "results": [
+          "Sudjelovao u relaunchu platforme za online kupnju",
+          "Pomogao definirati procese i sistemske zahtjeve za web i mobilnu trgovinu"
+        ],
+        "lesson": "Webshop je samo vidljivi dio puno većeg operativnog modela maloprodaje."
+      }
     },
     {
-      "id": "konzum-recommendation-engine", "company": "Konzum", "period": "2017–2020", "featured": true, "category": ["ecommerce", "data", "loyalty"], "mark": "R", "accent": "butter", "metric": "Personalization logic",
-      "en": {"title": "Retail recommendation engine", "summary": "Working on personalized product recommendations using existing retail and loyalty data.", "challenge": "Turning retail data into useful product suggestions requires business understanding, usable data and implementation across customer-facing commerce experiences.", "why": "Recommendation logic can only help customers when it reflects real shopping behavior and fits naturally into the commerce experience.", "role": ["Responsible for the eCommerce implementation component", "Participated in defining calculation logic using available data", "Connected business requirements and technical execution"], "work": ["Collaborated on the logic for calculating recommendations from existing data", "Defined and coordinated the eCommerce-side implementation needs", "Connected loyalty and retail context with the digital experience"], "results": ["Contributed to the implementation of a data-driven recommendation solution within the eCommerce environment"], "lesson": "Personalization is a product decision as much as it is a data or engineering problem."},
-      "hr": {"title": "Recommendation engine u retailu", "summary": "Personalizirane preporuke proizvoda na temelju postojećih maloprodajnih i loyalty podataka.", "challenge": "Pretvoriti podatke maloprodaje u korisne preporuke zahtijeva razumijevanje poslovanja, kvalitetu dostupnih podataka i implementaciju unutar digitalnog kanala.", "why": "Logika preporuka korisna je tek kada prati stvarno ponašanje u kupnji i prirodno se uklapa u webshop.", "role": ["Odgovoran za eCommerce dio implementacije", "Sudjelovao u definiranju logike izračuna na postojećim podacima", "Povezivao poslovne potrebe i tehničku realizaciju"], "work": ["Sudjelovao u osmišljavanju logike preporuka iz dostupnih podataka", "Definirao i koordinirao zahtjeve implementacije u eCommerce kanalu", "Povezivao loyalty i retail kontekst s korisničkim iskustvom"], "results": ["Sudjelovao u implementaciji podatkovno vođenog recommendation rješenja u eCommerce sustavu"], "lesson": "Personalizacija je jednako produktna odluka kao što je podatkovni i tehnički problem."}
+      "id": "konzum-recommendation-engine",
+      "company": "Konzum",
+      "period": "2017–2020",
+      "featured": true,
+      "category": [
+        "ecommerce",
+        "data",
+        "loyalty"
+      ],
+      "mark": "R",
+      "accent": "butter",
+      "metric": "Personalization logic",
+      "en": {
+        "title": "Retail recommendation engine",
+        "summary": "Working on personalized product recommendations using existing retail and loyalty data.",
+        "challenge": "Turning retail data into useful product suggestions requires business understanding, usable data and implementation across customer-facing commerce experiences.",
+        "why": "Recommendation logic can only help customers when it reflects real shopping behavior and fits naturally into the commerce experience.",
+        "role": [
+          "Responsible for the eCommerce implementation component",
+          "Participated in defining calculation logic using available data",
+          "Connected business requirements and technical execution"
+        ],
+        "work": [
+          "Collaborated on the logic for calculating recommendations from existing data",
+          "Defined and coordinated the eCommerce-side implementation needs",
+          "Connected loyalty and retail context with the digital experience"
+        ],
+        "results": [
+          "Contributed to the implementation of a data-driven recommendation solution within the eCommerce environment"
+        ],
+        "lesson": "Personalization is a product decision as much as it is a data or engineering problem."
+      },
+      "hr": {
+        "title": "Recommendation engine u retailu",
+        "summary": "Personalizirane preporuke proizvoda na temelju postojećih maloprodajnih i loyalty podataka.",
+        "challenge": "Pretvoriti podatke maloprodaje u korisne preporuke zahtijeva razumijevanje poslovanja, kvalitetu dostupnih podataka i implementaciju unutar digitalnog kanala.",
+        "why": "Logika preporuka korisna je tek kada prati stvarno ponašanje u kupnji i prirodno se uklapa u webshop.",
+        "role": [
+          "Odgovoran za eCommerce dio implementacije",
+          "Sudjelovao u definiranju logike izračuna na postojećim podacima",
+          "Povezivao poslovne potrebe i tehničku realizaciju"
+        ],
+        "work": [
+          "Sudjelovao u osmišljavanju logike preporuka iz dostupnih podataka",
+          "Definirao i koordinirao zahtjeve implementacije u eCommerce kanalu",
+          "Povezivao loyalty i retail kontekst s korisničkim iskustvom"
+        ],
+        "results": [
+          "Sudjelovao u implementaciji podatkovno vođenog recommendation rješenja u eCommerce sustavu"
+        ],
+        "lesson": "Personalizacija je jednako produktna odluka kao što je podatkovni i tehnički problem."
+      }
     },
     {
-      "id": "ekupi-help-portal", "company": "eKupi", "period": "2021", "featured": true, "category": ["product", "process", "delivery"], "mark": "−40%", "accent": "mint", "metric": "40% fewer requests*",
-      "en": {"title": "Self-service help portal for employees", "summary": "A digital knowledge and support channel designed to make everyday operations easier.", "challenge": "Employees needed a more accessible way to find answers, support information and updates about internal applications and retail processes.", "why": "Repeated support requests consume time on both sides. A searchable, accessible knowledge hub can reduce unnecessary handoffs.", "role": ["Contributed to the definition and rollout of an internal self-service portal", "Worked across IT support, knowledge sharing and operational workflows"], "work": ["Helped establish a portal for FAQs, manuals, business application updates and employee support", "Connected everyday user questions to a self-service experience", "Supported the design of processes that reduce repetitive support work"], "results": ["The published project description reports 40% fewer IT support requests in the following months", "Created an information channel available to employees across devices on the internal network"], "lesson": "Sometimes the best digital product is the one that removes friction from dozens of small daily tasks."},
-      "hr": {"title": "Self-service portal za zaposlenike", "summary": "Digitalni kanal znanja i podrške za jednostavniji svakodnevni rad.", "challenge": "Zaposlenicima je trebao jednostavniji pristup uputama, podršci i informacijama o internim aplikacijama i poslovnim procesima.", "why": "Ponavljajući zahtjevi za podrškom troše vrijeme. Dobra baza znanja i samouslužni portal mogu smanjiti nepotrebne korake.", "role": ["Sudjelovao u definiranju i uvođenju internog samouslužnog portala", "Povezivao IT podršku, dijeljenje znanja i operativne procese"], "work": ["Uspostava portala s čestim pitanjima, uputama, obavijestima i podrškom zaposlenicima", "Povezivanje svakodnevnih pitanja sa self-service iskustvom", "Definiranje procesa koji smanjuju ponavljajući rad podrške"], "results": ["U javno objavljenom opisu projekta navedeno je 40% manje zahtjeva prema IT podršci tijekom sljedećih mjeseci", "Uspostavljen informacijski kanal dostupan zaposlenicima s različitih uređaja unutar interne mreže"], "lesson": "Ponekad je najbolji digitalni proizvod onaj koji uklanja desetke malih svakodnevnih prepreka."}
+      "id": "ekupi-help-portal",
+      "company": "eKupi",
+      "period": "2021",
+      "featured": true,
+      "category": [
+        "product",
+        "process",
+        "delivery"
+      ],
+      "mark": "−40%",
+      "accent": "mint",
+      "metric": "40% fewer requests*",
+      "en": {
+        "title": "Self-service help portal for employees",
+        "summary": "A digital knowledge and support channel designed to make everyday operations easier.",
+        "challenge": "Employees needed a more accessible way to find answers, support information and updates about internal applications and retail processes.",
+        "why": "Repeated support requests consume time on both sides. A searchable, accessible knowledge hub can reduce unnecessary handoffs.",
+        "role": [
+          "Contributed to the definition and rollout of an internal self-service portal",
+          "Worked across IT support, knowledge sharing and operational workflows"
+        ],
+        "work": [
+          "Helped establish a portal for FAQs, manuals, business application updates and employee support",
+          "Connected everyday user questions to a self-service experience",
+          "Supported the design of processes that reduce repetitive support work"
+        ],
+        "results": [
+          "The published project description reports 40% fewer IT support requests in the following months",
+          "Created an information channel available to employees across devices on the internal network"
+        ],
+        "lesson": "Sometimes the best digital product is the one that removes friction from dozens of small daily tasks."
+      },
+      "hr": {
+        "title": "Self-service portal za zaposlenike",
+        "summary": "Digitalni kanal znanja i podrške za jednostavniji svakodnevni rad.",
+        "challenge": "Zaposlenicima je trebao jednostavniji pristup uputama, podršci i informacijama o internim aplikacijama i poslovnim procesima.",
+        "why": "Ponavljajući zahtjevi za podrškom troše vrijeme. Dobra baza znanja i samouslužni portal mogu smanjiti nepotrebne korake.",
+        "role": [
+          "Sudjelovao u definiranju i uvođenju internog samouslužnog portala",
+          "Povezivao IT podršku, dijeljenje znanja i operativne procese"
+        ],
+        "work": [
+          "Uspostava portala s čestim pitanjima, uputama, obavijestima i podrškom zaposlenicima",
+          "Povezivanje svakodnevnih pitanja sa self-service iskustvom",
+          "Definiranje procesa koji smanjuju ponavljajući rad podrške"
+        ],
+        "results": [
+          "U javno objavljenom opisu projekta navedeno je 40% manje zahtjeva prema IT podršci tijekom sljedećih mjeseci",
+          "Uspostavljen informacijski kanal dostupan zaposlenicima s različitih uređaja unutar interne mreže"
+        ],
+        "lesson": "Ponekad je najbolji digitalni proizvod onaj koji uklanja desetke malih svakodnevnih prepreka."
+      }
     },
     {
-      "id": "konzum-pickup", "company": "Konzum", "period": "2017–2020", "featured": false, "category": ["ecommerce", "logistics", "product"], "mark": "↗", "accent": "apricot", "metric": "Click & Collect",
-      "en": {"title": "PICKUP — groceries click & collect", "summary": "Online ordering, in-store collection and a shopping journey that crosses channels.", "challenge": "Allow customers to place grocery orders online and collect them at a convenient store and time.", "why": "Click & Collect connects digital checkout with availability, picking, store operations and customer communication.", "role": ["Member of the team defining business and logistics processes", "Project manager for the IT scope", "Coordinated internal and external teams"], "work": ["Helped define ordering and collection processes", "Coordinated IT implementation across relevant systems and partners", "Contributed to digital experience design and web delivery"], "results": ["Contributed to a pickup service that connected online grocery orders with physical stores"], "lesson": "Omnichannel works only when the channel boundaries disappear for the customer."},
-      "hr": {"title": "POKUPI — preuzimanje namirnica", "summary": "Online narudžba i preuzimanje u trgovini kao jedinstveno kupovno iskustvo.", "challenge": "Omogućiti narudžbu namirnica online i preuzimanje u odabranoj trgovini i terminu.", "why": "Click & Collect povezuje checkout s raspoloživošću, pripremom narudžbe, procesima trgovine i komunikacijom s kupcem.", "role": ["Član tima koji je definirao poslovne i logističke procese", "Voditelj IT dijela projekta", "Koordinirao interne i vanjske timove"], "work": ["Sudjelovao u definiranju naručivanja i procesa preuzimanja", "Koordinirao IT realizaciju kroz povezane sustave i partnere", "Sudjelovao u oblikovanju digitalnog iskustva i web razvoja"], "results": ["Doprinos usluzi koja povezuje online narudžbe namirnica s fizičkim trgovinama"], "lesson": "Omnichannel radi kada korisnik više ne osjeća granice između kanala."}
+      "id": "konzum-pickup",
+      "company": "Konzum",
+      "period": "2017–2020",
+      "featured": false,
+      "category": [
+        "ecommerce",
+        "logistics",
+        "product"
+      ],
+      "mark": "↗",
+      "accent": "apricot",
+      "metric": "Click & Collect",
+      "en": {
+        "title": "PICKUP — groceries click & collect",
+        "summary": "Online ordering, in-store collection and a shopping journey that crosses channels.",
+        "challenge": "Allow customers to place grocery orders online and collect them at a convenient store and time.",
+        "why": "Click & Collect connects digital checkout with availability, picking, store operations and customer communication.",
+        "role": [
+          "Member of the team defining business and logistics processes",
+          "Project manager for the IT scope",
+          "Coordinated internal and external teams"
+        ],
+        "work": [
+          "Helped define ordering and collection processes",
+          "Coordinated IT implementation across relevant systems and partners",
+          "Contributed to digital experience design and web delivery"
+        ],
+        "results": [
+          "Contributed to a pickup service that connected online grocery orders with physical stores"
+        ],
+        "lesson": "Omnichannel works only when the channel boundaries disappear for the customer."
+      },
+      "hr": {
+        "title": "POKUPI — preuzimanje namirnica",
+        "summary": "Online narudžba i preuzimanje u trgovini kao jedinstveno kupovno iskustvo.",
+        "challenge": "Omogućiti narudžbu namirnica online i preuzimanje u odabranoj trgovini i terminu.",
+        "why": "Click & Collect povezuje checkout s raspoloživošću, pripremom narudžbe, procesima trgovine i komunikacijom s kupcem.",
+        "role": [
+          "Član tima koji je definirao poslovne i logističke procese",
+          "Voditelj IT dijela projekta",
+          "Koordinirao interne i vanjske timove"
+        ],
+        "work": [
+          "Sudjelovao u definiranju naručivanja i procesa preuzimanja",
+          "Koordinirao IT realizaciju kroz povezane sustave i partnere",
+          "Sudjelovao u oblikovanju digitalnog iskustva i web razvoja"
+        ],
+        "results": [
+          "Doprinos usluzi koja povezuje online narudžbe namirnica s fizičkim trgovinama"
+        ],
+        "lesson": "Omnichannel radi kada korisnik više ne osjeća granice između kanala."
+      }
     },
     {
-      "id": "konzum-zdravoljupci", "company": "Konzum", "period": "2019", "featured": false, "category": ["ecommerce", "loyalty", "product"], "mark": "♥", "accent": "rose", "metric": "Digital loyalty",
-      "en": {"title": "Zdravoljupci — digital loyalty", "summary": "Bringing a large consumer loyalty initiative into the online shopping journey.", "challenge": "A campaign spanning physical retail and families needed a coherent digital loyalty experience within the webshop.", "why": "Loyalty programs need well-defined rules, business processes and digital journeys to be useful online.", "role": ["Member of the core process-definition team", "Project management for the IT / online-commerce scope"], "work": ["Helped define business and logistics requirements for the digital loyalty experience", "Coordinated internal and external teams involved in online implementation", "Aligned campaign requirements with existing webshop processes"], "results": ["Contributed to bringing the Zdravoljupci loyalty experience into the digital shopping channel"], "lesson": "Promotions become products when the underlying rules and customer experience are designed together."},
-      "hr": {"title": "Zdravoljupci — digitalni loyalty", "summary": "Povezivanje velike loyalty kampanje s iskustvom online kupnje.", "challenge": "Kampanja koja spaja fizičku maloprodaju i obitelji trebala je jasno digitalno iskustvo unutar webshopa.", "why": "Loyalty programi na internetu trebaju precizna pravila, procese i korisničke putove.", "role": ["Član tima za definiranje ključnih procesa", "Voditelj IT / eCommerce dijela projekta"], "work": ["Sudjelovao u definiranju poslovnih i logističkih zahtjeva za digitalni loyalty", "Koordinirao interne i vanjske timove u online implementaciji", "Usklađivao kampanjske zahtjeve s procesima webshopa"], "results": ["Sudjelovao u uključivanju Zdravoljubaca u digitalni kupovni kanal"], "lesson": "Promocija postaje proizvod tek kada pravila i korisničko iskustvo rade zajedno."}
+      "id": "konzum-zdravoljupci",
+      "company": "Konzum",
+      "period": "2019",
+      "featured": false,
+      "category": [
+        "ecommerce",
+        "loyalty",
+        "product"
+      ],
+      "mark": "♥",
+      "accent": "rose",
+      "metric": "Digital loyalty",
+      "en": {
+        "title": "Zdravoljupci — digital loyalty",
+        "summary": "Bringing a large consumer loyalty initiative into the online shopping journey.",
+        "challenge": "A campaign spanning physical retail and families needed a coherent digital loyalty experience within the webshop.",
+        "why": "Loyalty programs need well-defined rules, business processes and digital journeys to be useful online.",
+        "role": [
+          "Member of the core process-definition team",
+          "Project management for the IT / online-commerce scope"
+        ],
+        "work": [
+          "Helped define business and logistics requirements for the digital loyalty experience",
+          "Coordinated internal and external teams involved in online implementation",
+          "Aligned campaign requirements with existing webshop processes"
+        ],
+        "results": [
+          "Contributed to bringing the Zdravoljupci loyalty experience into the digital shopping channel"
+        ],
+        "lesson": "Promotions become products when the underlying rules and customer experience are designed together."
+      },
+      "hr": {
+        "title": "Zdravoljupci — digitalni loyalty",
+        "summary": "Povezivanje velike loyalty kampanje s iskustvom online kupnje.",
+        "challenge": "Kampanja koja spaja fizičku maloprodaju i obitelji trebala je jasno digitalno iskustvo unutar webshopa.",
+        "why": "Loyalty programi na internetu trebaju precizna pravila, procese i korisničke putove.",
+        "role": [
+          "Član tima za definiranje ključnih procesa",
+          "Voditelj IT / eCommerce dijela projekta"
+        ],
+        "work": [
+          "Sudjelovao u definiranju poslovnih i logističkih zahtjeva za digitalni loyalty",
+          "Koordinirao interne i vanjske timove u online implementaciji",
+          "Usklađivao kampanjske zahtjeve s procesima webshopa"
+        ],
+        "results": [
+          "Sudjelovao u uključivanju Zdravoljubaca u digitalni kupovni kanal"
+        ],
+        "lesson": "Promocija postaje proizvod tek kada pravila i korisničko iskustvo rade zajedno."
+      }
     },
     {
-      "id": "konzum-pampers-club", "company": "Konzum", "period": "2018–2020", "featured": false, "category": ["ecommerce", "loyalty", "integration"], "mark": "✳", "accent": "butter", "metric": "Loyalty integration",
-      "en": {"title": "Pampers Club — loyalty integration", "summary": "Connecting a partner loyalty proposition to online shopping and logistics.", "challenge": "Make an external loyalty proposition understandable and usable within an existing online retail system.", "why": "Promotional value is easily lost if points, orders, customer information and operational rules do not align.", "role": ["Collected requirements and prepared functional documentation", "Defined business and logistics processes for webshop integration", "Coordinated technical and business teams"], "work": ["Mapped how the loyalty mechanism would work in eCommerce frontend and backend", "Managed project coordination across stakeholders and vendors", "Contributed to supporting landing-page delivery and communication"], "results": ["Contributed to implementation of an online loyalty experience within the Konzum webshop"], "lesson": "A simple customer promise often depends on complex integration behind the scenes."},
-      "hr": {"title": "Pampers Club — loyalty integracija", "summary": "Povezivanje partnerskog loyalty programa s online kupnjom i logistikom.", "challenge": "Uključiti partnerski program pogodnosti u postojeći sustav online maloprodaje na razumljiv način.", "why": "Pogodnosti lako gube smisao ako bodovi, narudžbe, korisnički podaci i operativna pravila nisu usklađeni.", "role": ["Prikupljao zahtjeve i izrađivao funkcionalnu dokumentaciju", "Definirao poslovne i logističke procese integracije", "Koordinirao poslovne i tehničke timove"], "work": ["Mapirao način rada loyalty mehanike u webshop frontendu i backendu", "Koordinirao dionike i dobavljače", "Sudjelovao u pripremi landing stranice i komunikacije"], "results": ["Sudjelovao u realizaciji loyalty iskustva na Konzum webshopu"], "lesson": "Jednostavno obećanje korisniku često se oslanja na složenu integraciju u pozadini."}
+      "id": "konzum-pampers-club",
+      "company": "Konzum",
+      "period": "2018–2020",
+      "featured": false,
+      "category": [
+        "ecommerce",
+        "loyalty",
+        "integration"
+      ],
+      "mark": "✳",
+      "accent": "butter",
+      "metric": "Loyalty integration",
+      "en": {
+        "title": "Pampers Club — loyalty integration",
+        "summary": "Connecting a partner loyalty proposition to online shopping and logistics.",
+        "challenge": "Make an external loyalty proposition understandable and usable within an existing online retail system.",
+        "why": "Promotional value is easily lost if points, orders, customer information and operational rules do not align.",
+        "role": [
+          "Collected requirements and prepared functional documentation",
+          "Defined business and logistics processes for webshop integration",
+          "Coordinated technical and business teams"
+        ],
+        "work": [
+          "Mapped how the loyalty mechanism would work in eCommerce frontend and backend",
+          "Managed project coordination across stakeholders and vendors",
+          "Contributed to supporting landing-page delivery and communication"
+        ],
+        "results": [
+          "Contributed to implementation of an online loyalty experience within the Konzum webshop"
+        ],
+        "lesson": "A simple customer promise often depends on complex integration behind the scenes."
+      },
+      "hr": {
+        "title": "Pampers Club — loyalty integracija",
+        "summary": "Povezivanje partnerskog loyalty programa s online kupnjom i logistikom.",
+        "challenge": "Uključiti partnerski program pogodnosti u postojeći sustav online maloprodaje na razumljiv način.",
+        "why": "Pogodnosti lako gube smisao ako bodovi, narudžbe, korisnički podaci i operativna pravila nisu usklađeni.",
+        "role": [
+          "Prikupljao zahtjeve i izrađivao funkcionalnu dokumentaciju",
+          "Definirao poslovne i logističke procese integracije",
+          "Koordinirao poslovne i tehničke timove"
+        ],
+        "work": [
+          "Mapirao način rada loyalty mehanike u webshop frontendu i backendu",
+          "Koordinirao dionike i dobavljače",
+          "Sudjelovao u pripremi landing stranice i komunikacije"
+        ],
+        "results": [
+          "Sudjelovao u realizaciji loyalty iskustva na Konzum webshopu"
+        ],
+        "lesson": "Jednostavno obećanje korisniku često se oslanja na složenu integraciju u pozadini."
+      }
     },
     {
-      "id": "ekupi-esis-integrations", "company": "eKupi", "period": "2021", "featured": false, "category": ["ecommerce", "integration", "delivery"], "mark": "↔", "accent": "lavender", "metric": "Brand integrations",
-      "en": {"title": "eSIS — Samsung & Miele integrations", "summary": "Connecting brand inventory and campaign operations to an eCommerce platform.", "challenge": "Brands needed more direct control over inventory-related information and selected campaign activities within a multi-brand commerce environment.", "why": "Multi-brand commerce depends on practical data flows and appropriate administration permissions.", "role": ["Coordinated eCommerce integration requirements", "Connected partner needs with frontend and backend changes"], "work": ["Worked on integrating the eCommerce platform with external brand systems", "Supported administration enhancements for product lists and categories", "Aligned delivery between brand and eCommerce stakeholders"], "results": ["Contributed to brand-system integrations enabling greater independence in selected inventory and campaign activities"], "lesson": "Better partner experience often starts with better internal tools and data flows."},
-      "hr": {"title": "eSIS — Samsung i Miele integracije", "summary": "Povezivanje upravljanja zalihama i kampanjama brendova s eCommerce platformom.", "challenge": "Brendovima je trebala veća samostalnost u upravljanju informacijama o zalihama i odabranim kampanjskim aktivnostima.", "why": "Multi-brand trgovina ovisi o pouzdanim podatkovnim tokovima i pravilnim administracijskim ovlastima.", "role": ["Koordinirao zahtjeve eCommerce integracije", "Povezivao potrebe partnera s frontend i backend promjenama"], "work": ["Sudjelovao u povezivanju eCommerce platforme s vanjskim sustavima brendova", "Podržavao proširenja administracije za popise proizvoda i kategorije", "Usklađivao isporuku između brendova i eCommerce dionika"], "results": ["Doprinos integracijama koje su omogućile veću samostalnost brendova u odabranim aktivnostima upravljanja zalihama i kampanjama"], "lesson": "Bolje iskustvo partnera često počinje kvalitetnijim internim alatima i podacima."}
+      "id": "ekupi-esis-integrations",
+      "company": "eKupi",
+      "period": "2021",
+      "featured": false,
+      "category": [
+        "ecommerce",
+        "integration",
+        "delivery"
+      ],
+      "mark": "↔",
+      "accent": "lavender",
+      "metric": "Brand integrations",
+      "en": {
+        "title": "eSIS — Samsung & Miele integrations",
+        "summary": "Connecting brand inventory and campaign operations to an eCommerce platform.",
+        "challenge": "Brands needed more direct control over inventory-related information and selected campaign activities within a multi-brand commerce environment.",
+        "why": "Multi-brand commerce depends on practical data flows and appropriate administration permissions.",
+        "role": [
+          "Coordinated eCommerce integration requirements",
+          "Connected partner needs with frontend and backend changes"
+        ],
+        "work": [
+          "Worked on integrating the eCommerce platform with external brand systems",
+          "Supported administration enhancements for product lists and categories",
+          "Aligned delivery between brand and eCommerce stakeholders"
+        ],
+        "results": [
+          "Contributed to brand-system integrations enabling greater independence in selected inventory and campaign activities"
+        ],
+        "lesson": "Better partner experience often starts with better internal tools and data flows."
+      },
+      "hr": {
+        "title": "eSIS — Samsung i Miele integracije",
+        "summary": "Povezivanje upravljanja zalihama i kampanjama brendova s eCommerce platformom.",
+        "challenge": "Brendovima je trebala veća samostalnost u upravljanju informacijama o zalihama i odabranim kampanjskim aktivnostima.",
+        "why": "Multi-brand trgovina ovisi o pouzdanim podatkovnim tokovima i pravilnim administracijskim ovlastima.",
+        "role": [
+          "Koordinirao zahtjeve eCommerce integracije",
+          "Povezivao potrebe partnera s frontend i backend promjenama"
+        ],
+        "work": [
+          "Sudjelovao u povezivanju eCommerce platforme s vanjskim sustavima brendova",
+          "Podržavao proširenja administracije za popise proizvoda i kategorije",
+          "Usklađivao isporuku između brendova i eCommerce dionika"
+        ],
+        "results": [
+          "Doprinos integracijama koje su omogućile veću samostalnost brendova u odabranim aktivnostima upravljanja zalihama i kampanjama"
+        ],
+        "lesson": "Bolje iskustvo partnera često počinje kvalitetnijim internim alatima i podacima."
+      }
     },
     {
-      "id": "ekupi-ux-refresh", "company": "eKupi", "period": "2021", "featured": false, "category": ["ecommerce", "product", "delivery"], "mark": "UX", "accent": "rose", "metric": "Customer journey",
-      "en": {"title": "Customer experience & UI refresh", "summary": "Making product discovery and checkout easier across multiple webshops.", "challenge": "An established multi-market eCommerce platform needed more consistent user interfaces across product pages, landing pages and checkout.", "why": "Visual coherence matters, but consistency with real business requirements and long-term maintenance matters just as much.", "role": ["Coordinated product and implementation stakeholders", "Worked on user-centered requirements and delivery priorities"], "work": ["Helped define interface changes across product view, homepage and checkout", "Aligned design intent with backend dependencies and business requirements", "Supported coordination of implementation across the digital commerce environment"], "results": ["Contributed to a refreshed user interface approach designed to remain applicable across eKupi webshops"], "lesson": "Usability improvements survive when design and operating constraints are considered together."},
-      "hr": {"title": "Unapređenje korisničkog iskustva", "summary": "Jednostavnije otkrivanje proizvoda i checkout na više webshopova.", "challenge": "Postojeća eCommerce platforma na više tržišta trebala je ujednačenije korisničko sučelje kroz stranice proizvoda, landing stranice i checkout.", "why": "Vizualna konzistentnost je važna, ali jednako važna je usklađenost s poslovnim potrebama i dugoročnim održavanjem.", "role": ["Koordinirao produktne i implementacijske dionike", "Radio na korisničkim zahtjevima i prioritetima isporuke"], "work": ["Sudjelovao u definiranju promjena prikaza proizvoda, naslovnice i checkouta", "Usklađivao dizajn s backend ovisnostima i poslovnim zahtjevima", "Podržavao koordinaciju implementacije na eCommerce sustavu"], "results": ["Sudjelovao u modernizaciji korisničkog sučelja s ciljem primjene na više eKupi webshopova"], "lesson": "Poboljšanja upotrebljivosti traju kada se dizajn i operativna ograničenja razmatraju zajedno."}
+      "id": "ekupi-ux-refresh",
+      "company": "eKupi",
+      "period": "2021",
+      "featured": false,
+      "category": [
+        "ecommerce",
+        "product",
+        "delivery"
+      ],
+      "mark": "UX",
+      "accent": "rose",
+      "metric": "Customer journey",
+      "en": {
+        "title": "Customer experience & UI refresh",
+        "summary": "Making product discovery and checkout easier across multiple webshops.",
+        "challenge": "An established multi-market eCommerce platform needed more consistent user interfaces across product pages, landing pages and checkout.",
+        "why": "Visual coherence matters, but consistency with real business requirements and long-term maintenance matters just as much.",
+        "role": [
+          "Coordinated product and implementation stakeholders",
+          "Worked on user-centered requirements and delivery priorities"
+        ],
+        "work": [
+          "Helped define interface changes across product view, homepage and checkout",
+          "Aligned design intent with backend dependencies and business requirements",
+          "Supported coordination of implementation across the digital commerce environment"
+        ],
+        "results": [
+          "Contributed to a refreshed user interface approach designed to remain applicable across eKupi webshops"
+        ],
+        "lesson": "Usability improvements survive when design and operating constraints are considered together."
+      },
+      "hr": {
+        "title": "Unapređenje korisničkog iskustva",
+        "summary": "Jednostavnije otkrivanje proizvoda i checkout na više webshopova.",
+        "challenge": "Postojeća eCommerce platforma na više tržišta trebala je ujednačenije korisničko sučelje kroz stranice proizvoda, landing stranice i checkout.",
+        "why": "Vizualna konzistentnost je važna, ali jednako važna je usklađenost s poslovnim potrebama i dugoročnim održavanjem.",
+        "role": [
+          "Koordinirao produktne i implementacijske dionike",
+          "Radio na korisničkim zahtjevima i prioritetima isporuke"
+        ],
+        "work": [
+          "Sudjelovao u definiranju promjena prikaza proizvoda, naslovnice i checkouta",
+          "Usklađivao dizajn s backend ovisnostima i poslovnim zahtjevima",
+          "Podržavao koordinaciju implementacije na eCommerce sustavu"
+        ],
+        "results": [
+          "Sudjelovao u modernizaciji korisničkog sučelja s ciljem primjene na više eKupi webshopova"
+        ],
+        "lesson": "Poboljšanja upotrebljivosti traju kada se dizajn i operativna ograničenja razmatraju zajedno."
+      }
     },
     {
-      "id": "konzum-aws-commerce", "company": "Konzum", "period": "2018–2020", "featured": false, "category": ["platform", "integration", "delivery"], "mark": "☁", "accent": "mint", "metric": "Platform readiness",
-      "en": {"title": "Commerce infrastructure on AWS", "summary": "Linking cloud migration work with the needs of a large retail eCommerce operation.", "challenge": "Moving an online retail solution into cloud infrastructure meant understanding operational requirements and dependencies, not just servers.", "why": "Infrastructure decisions affect business continuity, integration complexity and future platform evolution.", "role": ["Member of the cross-functional migration initiative", "Project manager for the IT / business requirements scope"], "work": ["Defined business and logistics needs relevant to the new infrastructure", "Researched expected operational implications of cloud adoption", "Coordinated internal and external technical teams"], "results": ["Contributed to preparation and coordination of the commerce-platform migration initiative"], "lesson": "Cloud strategy matters most when expressed in business and operational requirements."},
-      "hr": {"title": "eCommerce infrastruktura na AWS-u", "summary": "Povezivanje cloud migracije s potrebama velikog retail eCommerce sustava.", "challenge": "Premještanje online maloprodajnog sustava u cloud traži razumijevanje operativnih potreba i ovisnosti, a ne samo servera.", "why": "Infrastrukturne odluke utječu na kontinuitet poslovanja, složenost integracija i budući razvoj platforme.", "role": ["Član multidisciplinarnog tima migracijske inicijative", "Voditelj IT / poslovnog dijela zahtjeva"], "work": ["Definirao poslovne i logističke potrebe vezane uz novu infrastrukturu", "Istraživao operativne implikacije prelaska na cloud", "Koordinirao interne i vanjske tehničke timove"], "results": ["Sudjelovao u pripremi i koordinaciji inicijative migracije eCommerce platforme"], "lesson": "Cloud strategija ima najveću vrijednost kada je prevedena u poslovne i operativne potrebe."}
+      "id": "konzum-aws-commerce",
+      "company": "Konzum",
+      "period": "2018–2020",
+      "featured": false,
+      "category": [
+        "platform",
+        "integration",
+        "delivery"
+      ],
+      "mark": "☁",
+      "accent": "mint",
+      "metric": "Platform readiness",
+      "en": {
+        "title": "Commerce infrastructure on AWS",
+        "summary": "Linking cloud migration work with the needs of a large retail eCommerce operation.",
+        "challenge": "Moving an online retail solution into cloud infrastructure meant understanding operational requirements and dependencies, not just servers.",
+        "why": "Infrastructure decisions affect business continuity, integration complexity and future platform evolution.",
+        "role": [
+          "Member of the cross-functional migration initiative",
+          "Project manager for the IT / business requirements scope"
+        ],
+        "work": [
+          "Defined business and logistics needs relevant to the new infrastructure",
+          "Researched expected operational implications of cloud adoption",
+          "Coordinated internal and external technical teams"
+        ],
+        "results": [
+          "Contributed to preparation and coordination of the commerce-platform migration initiative"
+        ],
+        "lesson": "Cloud strategy matters most when expressed in business and operational requirements."
+      },
+      "hr": {
+        "title": "eCommerce infrastruktura na AWS-u",
+        "summary": "Povezivanje cloud migracije s potrebama velikog retail eCommerce sustava.",
+        "challenge": "Premještanje online maloprodajnog sustava u cloud traži razumijevanje operativnih potreba i ovisnosti, a ne samo servera.",
+        "why": "Infrastrukturne odluke utječu na kontinuitet poslovanja, složenost integracija i budući razvoj platforme.",
+        "role": [
+          "Član multidisciplinarnog tima migracijske inicijative",
+          "Voditelj IT / poslovnog dijela zahtjeva"
+        ],
+        "work": [
+          "Definirao poslovne i logističke potrebe vezane uz novu infrastrukturu",
+          "Istraživao operativne implikacije prelaska na cloud",
+          "Koordinirao interne i vanjske tehničke timove"
+        ],
+        "results": [
+          "Sudjelovao u pripremi i koordinaciji inicijative migracije eCommerce platforme"
+        ],
+        "lesson": "Cloud strategija ima najveću vrijednost kada je prevedena u poslovne i operativne potrebe."
+      }
     },
     {
-      "id": "croatia-digital-self-service", "company": "Croatia osiguranje", "period": "2026–", "featured": true, "category": ["product", "platform", "insurance"], "mark": "CO", "accent": "lavender", "metric": "Web & mobile",
-      "en": {"title": "Insurance web & mobile self-service", "summary": "Connecting customer journeys, accessibility and product delivery in a regulated environment.", "challenge": "Insurance self-service experiences involve varied products, user needs and business processes. Changes must remain accessible, consistent and feasible to deliver.", "why": "Digital insurance should reduce customer effort rather than simply move complex processes online.", "role": ["Product ownership for web and mobile self-service journeys", "Business and development stakeholder coordination", "Prioritization of digital improvements"], "work": ["Worked on web and mobile customer journeys across insurance products", "Supported backlog definition and delivery coordination", "Connected analytics, accessibility and content/SEO considerations with customer experience", "Collaborated on improvements to the digital purchase and self-service experience"], "results": ["Supported continued improvement of customer-facing insurance digital channels"], "lesson": "A digital channel creates value when it makes a real-world task easier for the person using it."},
-      "hr": {"title": "Web i mobilni self-service u osiguranju", "summary": "Povezivanje korisničkih putova, pristupačnosti i razvoja proizvoda u reguliranom okruženju.", "challenge": "Digitalne usluge osiguranja uključuju različite proizvode, korisničke potrebe i procese. Promjene moraju ostati pristupačne, dosljedne i izvedive.", "why": "Digitalno osiguranje treba smanjiti korisnički trud, a ne samo preseliti složene procese na internet.", "role": ["Product ownership web i mobilnih self-service korisničkih putova", "Koordinacija poslovnih i razvojnih dionika", "Prioritizacija digitalnih poboljšanja"], "work": ["Rad na web i mobilnim korisničkim putovima više proizvoda osiguranja", "Definiranje backloga i koordinacija isporuke", "Povezivanje analitike, pristupačnosti, sadržaja i SEO-a s korisničkim iskustvom", "Suradnja na poboljšanjima digitalne kupnje i samousluge"], "results": ["Doprinos kontinuiranom razvoju digitalnih kanala za korisnike osiguranja"], "lesson": "Digitalni kanal stvara vrijednost kada osobi olakšava stvarni zadatak."}
+      "id": "croatia-digital-self-service",
+      "company": "Croatia osiguranje",
+      "period": "2026–",
+      "featured": true,
+      "category": [
+        "product",
+        "platform",
+        "insurance"
+      ],
+      "mark": "CO",
+      "accent": "lavender",
+      "metric": "Web & mobile",
+      "en": {
+        "title": "Insurance web & mobile self-service",
+        "summary": "Connecting customer journeys, accessibility and product delivery in a regulated environment.",
+        "challenge": "Insurance self-service experiences involve varied products, user needs and business processes. Changes must remain accessible, consistent and feasible to deliver.",
+        "why": "Digital insurance should reduce customer effort rather than simply move complex processes online.",
+        "role": [
+          "Product ownership for web and mobile self-service journeys",
+          "Business and development stakeholder coordination",
+          "Prioritization of digital improvements"
+        ],
+        "work": [
+          "Worked on web and mobile customer journeys across insurance products",
+          "Supported backlog definition and delivery coordination",
+          "Connected analytics, accessibility and content/SEO considerations with customer experience",
+          "Collaborated on improvements to the digital purchase and self-service experience"
+        ],
+        "results": [
+          "Supported continued improvement of customer-facing insurance digital channels"
+        ],
+        "lesson": "A digital channel creates value when it makes a real-world task easier for the person using it."
+      },
+      "hr": {
+        "title": "Web i mobilni self-service u osiguranju",
+        "summary": "Povezivanje korisničkih putova, pristupačnosti i razvoja proizvoda u reguliranom okruženju.",
+        "challenge": "Digitalne usluge osiguranja uključuju različite proizvode, korisničke potrebe i procese. Promjene moraju ostati pristupačne, dosljedne i izvedive.",
+        "why": "Digitalno osiguranje treba smanjiti korisnički trud, a ne samo preseliti složene procese na internet.",
+        "role": [
+          "Product ownership web i mobilnih self-service korisničkih putova",
+          "Koordinacija poslovnih i razvojnih dionika",
+          "Prioritizacija digitalnih poboljšanja"
+        ],
+        "work": [
+          "Rad na web i mobilnim korisničkim putovima više proizvoda osiguranja",
+          "Definiranje backloga i koordinacija isporuke",
+          "Povezivanje analitike, pristupačnosti, sadržaja i SEO-a s korisničkim iskustvom",
+          "Suradnja na poboljšanjima digitalne kupnje i samousluge"
+        ],
+        "results": [
+          "Doprinos kontinuiranom razvoju digitalnih kanala za korisnike osiguranja"
+        ],
+        "lesson": "Digitalni kanal stvara vrijednost kada osobi olakšava stvarni zadatak."
+      }
     },
     {
-      "id": "croatia-process-automation", "company": "Croatia osiguranje", "period": "2026–", "featured": false, "category": ["process", "insurance", "delivery"], "mark": "↻", "accent": "butter", "metric": "Process automation",
-      "en": {"title": "Insurance process automation", "summary": "Turning complex operational workflows into clearer automation requirements and MVP boundaries.", "challenge": "Manual administrative processes often combine several systems, document types and exception paths. Automating them requires a shared understanding of the process before development starts.", "why": "A reliable automation is not the one that handles only the ideal scenario, but the one that makes boundaries, exceptions and handoffs explicit.", "role": ["Business/process analysis and cross-team coordination", "Automation scope and MVP definition"], "work": ["Mapped process steps and system dependencies at a business level", "Coordinated clarification of inputs, outputs and exceptions", "Helped define sensible MVP stopping points and handoffs", "Supported communication between process owners and technical delivery"], "results": ["Contributed to defining implementation-ready process automation scope; public results are not disclosed"], "lesson": "Process clarity is a prerequisite for meaningful automation."},
-      "hr": {"title": "Automatizacija procesa u osiguranju", "summary": "Prevođenje složenih operativnih postupaka u jasne zahtjeve i MVP granice automatizacije.", "challenge": "Administrativni procesi često spajaju više sustava, vrsta dokumenata i iznimki. Prije automatizacije važno je usuglasiti stvarni tijek rada.", "why": "Pouzdana automatizacija nije samo idealni scenarij: treba definirati iznimke, granice i mjesta predaje čovjeku.", "role": ["Analiza procesa i koordinacija između timova", "Definiranje opsega automatizacije i MVP-a"], "work": ["Mapiranje procesa i sistemskih ovisnosti na poslovnoj razini", "Razjašnjavanje ulaza, izlaza i iznimki", "Definiranje razumnih MVP točaka zaustavljanja i predaje", "Komunikacija između vlasnika procesa i tehničkog tima"], "results": ["Doprinos definiranju provedivog opsega automatizacije; javni operativni rezultati nisu objavljeni"], "lesson": "Jasan proces preduvjet je smislene automatizacije."}
+      "id": "croatia-process-automation",
+      "company": "Croatia osiguranje",
+      "period": "2026–",
+      "featured": false,
+      "category": [
+        "process",
+        "insurance",
+        "delivery"
+      ],
+      "mark": "↻",
+      "accent": "butter",
+      "metric": "Process automation",
+      "en": {
+        "title": "Insurance process automation",
+        "summary": "Turning complex operational workflows into clearer automation requirements and MVP boundaries.",
+        "challenge": "Manual administrative processes often combine several systems, document types and exception paths. Automating them requires a shared understanding of the process before development starts.",
+        "why": "A reliable automation is not the one that handles only the ideal scenario, but the one that makes boundaries, exceptions and handoffs explicit.",
+        "role": [
+          "Business/process analysis and cross-team coordination",
+          "Automation scope and MVP definition"
+        ],
+        "work": [
+          "Mapped process steps and system dependencies at a business level",
+          "Coordinated clarification of inputs, outputs and exceptions",
+          "Helped define sensible MVP stopping points and handoffs",
+          "Supported communication between process owners and technical delivery"
+        ],
+        "results": [
+          "Contributed to defining implementation-ready process automation scope; public results are not disclosed"
+        ],
+        "lesson": "Process clarity is a prerequisite for meaningful automation."
+      },
+      "hr": {
+        "title": "Automatizacija procesa u osiguranju",
+        "summary": "Prevođenje složenih operativnih postupaka u jasne zahtjeve i MVP granice automatizacije.",
+        "challenge": "Administrativni procesi često spajaju više sustava, vrsta dokumenata i iznimki. Prije automatizacije važno je usuglasiti stvarni tijek rada.",
+        "why": "Pouzdana automatizacija nije samo idealni scenarij: treba definirati iznimke, granice i mjesta predaje čovjeku.",
+        "role": [
+          "Analiza procesa i koordinacija između timova",
+          "Definiranje opsega automatizacije i MVP-a"
+        ],
+        "work": [
+          "Mapiranje procesa i sistemskih ovisnosti na poslovnoj razini",
+          "Razjašnjavanje ulaza, izlaza i iznimki",
+          "Definiranje razumnih MVP točaka zaustavljanja i predaje",
+          "Komunikacija između vlasnika procesa i tehničkog tima"
+        ],
+        "results": [
+          "Doprinos definiranju provedivog opsega automatizacije; javni operativni rezultati nisu objavljeni"
+        ],
+        "lesson": "Jasan proces preduvjet je smislene automatizacije."
+      }
     }
   ]
 }
