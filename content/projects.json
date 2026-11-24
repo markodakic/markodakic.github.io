@@ -286,7 +286,9 @@
           "Uspostavljen informacijski kanal dostupan zaposlenicima s različitih uređaja unutar interne mreže"
         ],
         "lesson": "Ponekad je najbolji digitalni proizvod onaj koji uklanja desetke malih svakodnevnih prepreka."
-      }
+      },
+      "image": "assets/projects/ekupi-help-portal-internal.webp",
+      "image_alt": "AI-generated concept of the internal eKupi employee help and knowledge portal; not an actual production screenshot"
     },
     {
       "id": "konzum-pickup",
