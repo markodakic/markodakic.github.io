@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 450" role="img" aria-labelledby="title desc">
+<title id="title">Private Cloud PC architecture</title><desc id="desc">Mac, tablet and phone connect through Twingate to a Windows mini PC with Sunshine and Nextcloud.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#3774c3"/></marker></defs>
+<rect width="1100" height="450" rx="20" fill="#f7faff"/>
+<text x="44" y="58" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" fill="#17375f">One computer. Multiple devices.</text>
+<text x="44" y="86" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#58718f">Simplified overview of my personal Cloud PC experiment</text>
+<rect x="44" y="130" width="272" height="252" rx="18" fill="#ffffff" stroke="#d2e1f3" stroke-width="2"/>
+<rect x="414" y="176" width="272" height="166" rx="18" fill="#e8f2ff" stroke="#b9d6f8" stroke-width="2"/>
+<rect x="784" y="130" width="272" height="252" rx="18" fill="#ffffff" stroke="#d2e1f3" stroke-width="2"/>
+<text x="68" y="169" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#1d4473">Remote devices</text>
+<rect x="68" y="196" width="120" height="71" rx="5" fill="#e9f3ff" stroke="#548acb" stroke-width="3"/>
+<rect x="80" y="208" width="96" height="47" rx="3" fill="#b8d9f9"/>
+<path d="M57 275 H199 L211 288 H45Z" fill="#a1c8f3"/>
+<rect x="224" y="198" width="51" height="89" rx="9" fill="#e8f2ff" stroke="#548acb" stroke-width="3"/>
+<rect x="231" y="207" width="37" height="70" rx="4" fill="#b8d9f9"/>
+<text x="69" y="327" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#26558e">Mac · Tablet · Phone</text>
+<text x="69" y="352" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#69809d">Moonlight / RustDesk</text>
+<path d="M325 259 H406" stroke="#3774c3" stroke-width="3" marker-end="url(#arrow)" fill="none"/>
+<path d="M691 259 H777" stroke="#3774c3" stroke-width="3" marker-end="url(#arrow)" fill="none"/>
+<rect x="519" y="206" width="58" height="48" rx="10" fill="#cce3fc" stroke="#6b9bd4" stroke-width="2"/>
+<path d="M534 225 V213 A14 14 0 0 1 562 213 V225" stroke="#2c67b7" stroke-width="4" fill="none"/>
+<rect x="536" y="224" width="25" height="20" rx="3" fill="#2c67b7"/>
+<text x="550" y="280" font-family="Arial,Helvetica,sans-serif" text-anchor="middle" font-size="21" font-weight="700" fill="#22558e">Twingate</text>
+<text x="550" y="305" font-family="Arial,Helvetica,sans-serif" text-anchor="middle" font-size="13" fill="#5a779b">Private access</text>
+<text x="810" y="169" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#1d4473">Home mini-PC</text>
+<rect x="824" y="201" width="192" height="92" rx="17" fill="#d8e9fb" stroke="#6194cd" stroke-width="3"/>
+<rect x="841" y="215" width="158" height="10" rx="4" fill="#b1d2f5"/>
+<circle cx="852" cy="272" r="5" fill="#357ac8"/>
+<rect x="877" y="270" width="108" height="6" rx="3" fill="#90b9e6"/>
+<text x="810" y="327" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" fill="#26558e">Windows + Sunshine</text>
+<text x="810" y="352" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#69809d">Nextcloud · Files · Apps</text>
+<text x="550" y="425" font-family="Arial,Helvetica,sans-serif" text-anchor="middle" font-size="12" fill="#7891ae">Conceptual architecture. No private network details shared.</text>
+</svg>

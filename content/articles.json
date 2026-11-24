@@ -8,69 +8,97 @@
       "published": true,
       "source_url": "https://www.linkedin.com/pulse/how-i-built-personal-cloud-pc-home-accessible-from-anywhere-daki%C4%87-7u9if",
       "en": {
-        "title": "How I Built a Personal Cloud PC at Home",
-        "summary": "A small computer at home, reachable from different devices. What I set up, why I did it, and what the experiment taught me.",
+        "title": "How I Built a Personal Cloud PC at Home (Accessible from Anywhere)",
+        "summary": "A home mini-PC, secure remote access and personal cloud storage — a hands-on experiment with Twingate, Sunshine, Moonlight and Nextcloud.",
         "sections": [
           {
-            "heading": "The idea: one computer, many windows",
+            "heading": "Why build a personal cloud PC at all?",
             "paragraphs": [
-              "I enjoy technology most when I can actually try something instead of just reading about it. That is how my private Cloud PC experiment started. I wanted to know whether a small computer at home could become my main working environment while my laptop, tablet and phone acted as ways to reach it.",
-              "The appeal was not to build an elaborate data centre. It was to simplify things: keep the applications and files where they belong, and access the same environment when moving between devices."
+              "I wanted to know whether the same computer could serve me across different devices, without copying files or reinstalling applications. The idea was to keep one working environment on a small machine at home.",
+              "A laptop, tablet or phone would become a way of reaching that environment. What interested me was not a complicated server architecture, but whether this could be useful in everyday life."
             ]
           },
           {
-            "heading": "A small machine, a secure connection",
+            "heading": "What kind of hardware is enough today?",
             "paragraphs": [
-              "I used a compact Windows mini-PC as the machine that stays at home. The important part was not raw power but dependable operation, a wired network connection and a way to reach the computer without opening an unnecessary public door into the home network.",
-              "I experimented with Twingate for private access. For the desktop itself I tried GPU-assisted streaming with Sunshine and Moonlight, and kept RustDesk as another way to administer the machine. Each option solved a different part of the problem; I would not treat any of them as a universal answer."
+              "The core of the setup is a compact mini-PC with an AMD Ryzen processor, connected to my router over Ethernet. The machine stays available at home while the devices I carry can be lighter and simpler.",
+              "It is not a replacement for a professionally managed data centre. For this experiment, reliable operation, a stable network and sufficient performance were the practical priorities."
             ]
           },
           {
-            "heading": "Files and the everyday experience",
+            "heading": "How do you make a home computer accessible from anywhere?",
             "paragraphs": [
-              "Once the machine was available remotely, it was natural to consider file storage. Nextcloud added a personal cloud component, so the same setup could serve both as a workstation and a home-controlled file service.",
-              "The interesting question was whether the experience remained useful outside a perfect home network. Latency, display resolution, the quality of a remote connection and everyday maintenance matter more than the impressive technical diagram."
+              "I did not want to expose remote-desktop services to the public internet by opening ports on the router. I used Twingate to create a private access path from my devices to the home computer.",
+              "This reduced the need for public-facing connections while keeping the remote machine reachable when I needed it. Security is still an ongoing responsibility, not something solved once during installation."
             ]
           },
           {
-            "heading": "What I took away",
+            "heading": "How do you make a remote desktop actually usable?",
             "paragraphs": [
-              "This project reminded me that a good solution is not defined by how many technologies it contains. It is defined by how much effort it removes from a real task. For me, the experiment was an inexpensive way to learn more about remote access, self-hosting and the practical boundary between personal computing and cloud services.",
-              "I still see it as a personal experiment, not a recommendation that everyone should replace managed cloud services. Backups, updates and security remain my responsibility when the server lives at home."
+              "A connection can work technically and still feel slow. To explore a smoother remote desktop, I tested Sunshine on the Windows host and Moonlight on the connecting device. Sunshine handles streaming, while Moonlight displays the session.",
+              "I kept RustDesk as an alternative for administration and troubleshooting. Network conditions, latency and display resolution still determine whether a remote session feels comfortable."
+            ]
+          },
+          {
+            "heading": "Can the same machine replace cloud storage services?",
+            "paragraphs": [
+              "Once the computer was running continuously, I also installed Nextcloud. That added file synchronisation and access through browsers or dedicated applications.",
+              "Hosting the service at home gives me control over the data and configuration, but also responsibility for updates, monitoring and backups. I treat it as a personal learning project, not a universal replacement for managed services."
+            ]
+          },
+          {
+            "heading": "Helpful resources and lessons learned",
+            "paragraphs": [
+              "The original article links to the tools and to a useful tutorial covering private network access and remote administration. I have kept those resources available below for anyone interested in understanding the components.",
+              "The lesson for me was that cloud-like access no longer requires distant infrastructure for every use case. A modest computer at home can be a useful workstation, file service and place to learn, as long as its limitations are understood."
             ]
           }
         ]
       },
       "hr": {
-        "title": "Kako sam kod kuće složio vlastiti Cloud PC",
-        "summary": "Malo računalo kod kuće, dostupno s različitih uređaja. Što sam složio, zašto i što sam kroz testiranje naučio.",
+        "title": "Kako sam složio osobni Cloud PC kojem pristupam s bilo kojeg mjesta",
+        "summary": "Kućni mini-PC, udaljeni pristup i privatna pohrana — praktični eksperiment s Twingateom, Sunshineom, Moonlightom i Nextcloudom.",
         "sections": [
           {
-            "heading": "Ideja: jedno računalo, više načina pristupa",
+            "heading": "Zašto uopće slagati osobni Cloud PC?",
             "paragraphs": [
-              "Najzanimljivije mi je kad tehnologiju mogu stvarno isprobati, a ne samo čitati o njoj. Tako je počeo i eksperiment s privatnim Cloud PC-jem. Htio sam vidjeti može li jedno malo kućno računalo postati moje glavno radno okruženje, a Mac, tablet i telefon samo različiti načini pristupa.",
-              "Cilj nije bio graditi vlastiti podatkovni centar. Htio sam pojednostaviti svakodnevni rad: aplikacije i datoteke ostaju na jednom mjestu, a ja im pristupam s uređaja koji mi je u tom trenutku pri ruci."
+              "Htio sam provjeriti mogu li isto računalo koristiti s različitih uređaja, bez stalnog prebacivanja datoteka i ponovnog instaliranja aplikacija. Ideja je bila imati jedno radno okruženje na malom računalu kod kuće.",
+              "Laptop, tablet ili mobitel bili bi samo različiti načini pristupa. Nije me zanimala komplicirana serverska arhitektura, nego koliko takvo rješenje stvarno vrijedi u svakodnevnom radu."
             ]
           },
           {
-            "heading": "Malo računalo i sigurna veza",
+            "heading": "Kakav je hardver danas dovoljan?",
             "paragraphs": [
-              "Za osnovu sam koristio kompaktni Windows mini-PC koji stalno radi kod kuće. Važnije od same snage bile su pouzdanost, žična mrežna veza i pristup bez nepotrebnog otvaranja kućne mreže prema internetu.",
-              "Za privatni pristup testirao sam Twingate. Za udaljeni rad isprobavao sam Sunshine i Moonlight, a RustDesk mi je poslužio kao još jedna mogućnost administriranja. Svaki alat rješava dio problema i ne postoji jedna kombinacija koja će svakome biti najbolja."
+              "Osnova je kompaktni mini-PC s AMD Ryzen procesorom, povezan Ethernet kabelom s routerom. Računalo ostaje dostupno kod kuće, a uređaji koje nosim mogu biti manji i jednostavniji.",
+              "Ovo nije zamjena za profesionalno upravljani podatkovni centar. Za moj eksperiment bili su važni pouzdan rad, stabilna mreža i dovoljno performansi."
             ]
           },
           {
-            "heading": "Datoteke i stvarna upotreba",
+            "heading": "Kako kućnom računalu pristupiti s bilo kojeg mjesta?",
             "paragraphs": [
-              "Kad računalo već može biti dostupno izvana, logično je razmišljati i o pohrani datoteka. Nextcloud je dodao dio privatnog clouda pa isto računalo može služiti kao radna površina i kao sustav za pristup vlastitim podacima.",
-              "Pravi test nije lijep dijagram arhitekture nego svakodnevni rad. Kašnjenje veze, rezolucija ekrana, kvaliteta interneta i održavanje sustava često su važniji od popisa instaliranih servisa."
+              "Nisam želio otvarati portove udaljene radne površine prema javnom internetu. Umjesto toga koristio sam Twingate, koji omogućuje privatni pristup računalu s mojih uređaja.",
+              "Time je pristup jednostavniji bez nepotrebnog javnog izlaganja servisa. Sigurnost i dalje zahtijeva kontinuirano održavanje, a ne samo jednokratno podešavanje."
             ]
           },
           {
-            "heading": "Što sam naučio",
+            "heading": "Kako udaljena radna površina postaje stvarno upotrebljiva?",
             "paragraphs": [
-              "Ovaj me projekt podsjetio da dobro rješenje ne definira broj korištenih tehnologija, nego koliko pojednostavljuje stvarni posao. Bio mi je to vrlo praktičan način da bolje razumijem udaljeni pristup, samostalno hostanje i granicu između osobnog računala i cloud usluga.",
-              "I dalje ga promatram kao osobni eksperiment, a ne savjet da svi trebaju napustiti komercijalne cloud servise. Kad poslužitelj radi kod kuće, sigurnost, ažuriranja i sigurnosne kopije ostaju moja odgovornost."
+              "Jedno je uspostaviti vezu, a drugo je raditi bez primjetnog kašnjenja. Zato sam testirao Sunshine na Windows računalu i Moonlight na uređaju s kojeg pristupam. Sunshine priprema prijenos slike, a Moonlight prikazuje radnu površinu.",
+              "RustDesk sam zadržao kao alternativu za administraciju i rješavanje problema. Kvaliteta interneta, latencija i rezolucija zaslona i dalje određuju koliko je sve ugodno za rad."
+            ]
+          },
+          {
+            "heading": "Može li isto računalo zamijeniti cloud pohranu?",
+            "paragraphs": [
+              "Kad računalo već stalno radi, instalirao sam i Nextcloud. Tako dobivam sinkronizaciju datoteka i pristup kroz preglednik ili aplikacije.",
+              "Pohrana kod kuće daje mi više kontrole nad podacima, ali i odgovornost za nadogradnje, nadzor i sigurnosne kopije. Ovo je osobni projekt za učenje, ne univerzalna zamjena za komercijalne usluge."
+            ]
+          },
+          {
+            "heading": "Korisni izvori i naučene lekcije",
+            "paragraphs": [
+              "U izvornom članku povezao sam alate i koristan video o privatnom mrežnom pristupu i udaljenoj administraciji. Te izvore ostavljam dostupnima i ovdje.",
+              "Zaključak: pristup nalik cloudu ne mora uvijek značiti udaljeni podatkovni centar. Malo kućno računalo može biti radna površina, pohrana i prostor za učenje, uz svjesno preuzimanje odgovornosti za održavanje."
             ]
           }
         ]
