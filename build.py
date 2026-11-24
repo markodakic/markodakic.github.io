@@ -53,14 +53,15 @@ def company_lockup(company):
 
 
 def project_visual(p, prefix='', detail=False):
-    """Render each project visual with matching image badge and visible caption."""
+    """Render project images with an overlay, plus a caption on detail pages only."""
     path = str(p.get('image') or '').strip()
     if not path.startswith('assets/') or not (ROOT / path).is_file():
         return ''
     alt = str(p.get('image_alt') or f"Project visual: {p['company']}")
     css = 'project-real-visual project-real-visual-detail' if detail else 'project-real-visual project-card-visual'
     disclosure = 'Project photo' if p.get('id') == 'ekupi-outdoor-parcel-lockers' else 'AI-generated image'
-    return f'<figure class="{css}"><div class="project-image-media"><img src="{prefix}{esc(path)}" alt="{esc(alt)}" loading="lazy" decoding="async"><span class="project-image-overlay" aria-hidden="true">{disclosure}</span></div><figcaption class="concept-caption">{disclosure}</figcaption></figure>'
+    caption = f'<figcaption class="concept-caption">{disclosure}</figcaption>' if detail else ''
+    return f'<figure class="{css}"><div class="project-image-media"><img src="{prefix}{esc(path)}" alt="{esc(alt)}" loading="lazy" decoding="async"><span class="project-image-overlay" aria-hidden="true">{disclosure}</span></div>{caption}</figure>'
 
 def project_card(p,prefix='',i=0):
     d=p['en'];h=p['hr']; tags=' '.join(p['category']);
