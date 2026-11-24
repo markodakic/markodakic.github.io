@@ -602,7 +602,9 @@
           "Sudjelovao u pripremi i koordinaciji inicijative migracije eCommerce platforme"
         ],
         "lesson": "Cloud strategija ima najveću vrijednost kada je prevedena u poslovne i operativne potrebe."
-      }
+      },
+      "image": "assets/projects/konzum-aws-commerce-homepage.webp",
+      "image_alt": "Conceptual cloud-commerce illustration featuring a public Konzum webshop homepage screenshot on a laptop; not an exact production representation"
     },
     {
       "id": "croatia-digital-self-service",
