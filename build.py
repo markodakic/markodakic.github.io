@@ -76,7 +76,7 @@ def home():
     cards=''.join(project_card(p,'',i) for i,p in enumerate(featured))
     return head('Marko Dakić | Digital Product, Delivery & eCommerce','Digital Product & Transformation | Product Ownership, IT Delivery and eCommerce. Project case studies and articles.',canonical_path='')+header('index.html')+f'''
     <main id="main">
-      <section class="hero shell"><div class="hero-copy"><div class="hello">{t('Hello! I’m Marko, from Croatia.','Bok! Ja sam Marko, iz Hrvatske.')}</div><div class="mini-label">PRODUCT OWNERSHIP <span>·</span> IT DELIVERY <span>·</span> eCOMMERCE</div>
+      <section class="hero shell"><div class="hero-copy">
         <div class="hero-roleline">Digital Product &amp; Transformation</div><h1>{t('Digital products.','Digitalni proizvodi.')} <em>{t('Real delivery.','Stvarna isporuka.')}</em></h1>
         <p class="hero-lead">{t('I connect business, people and technology to build digital products that make sense in the real world. From grocery eCommerce and logistics to modern self-service experiences.','Povezujem poslovanje, ljude i tehnologiju kako bih gradio digitalne proizvode koji imaju smisla u stvarnom životu. Od online maloprodaje i logistike do modernih samouslužnih rješenja.')}</p>
         <div class="hero-actions"><a class="button button-dark" href="work.html">{t('See what I’ve built','Pogledaj moje projekte')} <span>↗</span></a><a class="inline-action" href="articles.html">{t('Read my notes','Moji članci i testovi')} <span>↓</span></a></div>

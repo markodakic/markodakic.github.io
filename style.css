@@ -359,3 +359,12 @@ html[data-theme='dark'] .cap-grid .cap:nth-child(2){background:#293A4F}
 .project-real-visual .concept-caption{display:block;margin:0;padding:12px 20px;border-top:1px solid var(--line);background:var(--panel);color:var(--muted);font-size:.83rem;line-height:1.5;text-align:left}
 .work-card .project-card-visual .concept-caption{padding:9px 13px;font-size:11px;line-height:1.35}
 @media(max-width:650px){.project-real-visual .project-image-overlay{right:9px;bottom:9px;padding:6px 8px;font-size:11px}}
+
+/* Homepage hero: compact layout without redundant expertise kicker */
+@media (min-width:761px){
+  .hero{align-items:start;padding-top:24px}
+}
+@media (max-width:760px){
+  .hero{padding-top:18px}
+  .hero-roleline{margin-top:7px}
+}
