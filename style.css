@@ -57,8 +57,13 @@ html[data-theme='dark'] .cap{filter:brightness(.88)}html[data-theme='dark'] .car
 .hero-proof .proof-item strong{font:700 clamp(27px,2.5vw,38px)/1.06 var(--serif);color:#244a3d;letter-spacing:-.04em;margin:0}
 .hero-proof .proof-item strong span{font:inherit;color:#e36f4b}
 .hero-proof .proof-item>span{font-size:11px;color:#52635b;line-height:1.4;font-weight:700}
-.hero-footnote{margin-top:15px;color:var(--muted);font-size:11px;line-height:1.65;max-width:575px}
-.hero-footnote>span{color:#c65436;font-weight:800;background:#fce8db;padding:3px 9px;border-radius:99px;margin-right:7px;white-space:nowrap}
+.hero-footnote{margin-top:15px;display:flex;align-items:center;flex-wrap:wrap;gap:9px;color:var(--muted);font-size:11px;line-height:1.65;max-width:575px}
+.hero-footnote>span{display:inline-flex;align-items:center;gap:6px;font-weight:800;padding:5px 11px;border-radius:99px;white-space:nowrap}
+.hero-footnote .hero-cert-pill{color:#a43f27;background:#fce8db}
+.hero-footnote .hero-cert-pill strong{font-weight:900}
+.hero-footnote .hero-scope-pill{color:#244a3d;background:#e7f2e9}
+html[data-theme=dark] .hero-footnote .hero-cert-pill{color:#ffd2bd;background:#5a3028}
+html[data-theme=dark] .hero-footnote .hero-scope-pill{color:#dbf3e0;background:#29483d}
 .showcase-portrait{transform:rotate(-3deg)}.portrait-photo{object-position:50% 35%;filter:none}
 html[data-theme=dark] .hero-proof .proof-item{background:#293b35;border-color:#456154}
 html[data-theme=dark] .hero-proof .proof-item strong{color:#f5f0e5}
