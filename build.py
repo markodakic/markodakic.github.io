@@ -60,7 +60,7 @@ def project_visual(p, prefix='', detail=False):
     alt = str(p.get('image_alt') or f"Project visual: {p['company']}")
     css = 'project-real-visual project-real-visual-detail' if detail else 'project-real-visual'
     note = ''
-    if p.get('id') == 'spryker-mstart':
+    if p.get('id') in ('spryker-mstart', 'konzum-recommendation-engine'):
         css += ' ' + ('project-card-visual' if not detail else '')
         caption_css = 'concept-caption' if detail else 'card-ai-note'
         note = f'<figcaption class="{caption_css}">{t("AI-generated image", "AI-generated image")}</figcaption>'

@@ -230,7 +230,9 @@
           "Sudjelovao u implementaciji podatkovno vođenog recommendation rješenja u eCommerce sustavu"
         ],
         "lesson": "Personalizacija je jednako produktna odluka kao što je podatkovni i tehnički problem."
-      }
+      },
+      "image": "assets/projects/konzum-recommendation-engine-v2.webp",
+      "image_alt": "AI-generated conceptual grocery recommendation carousel with personalized shopping callouts; not an actual production screenshot"
     },
     {
       "id": "ekupi-help-portal",
