@@ -1,3 +1,232 @@
 {
-  "articles": []
+  "articles": [
+    {
+      "id": "private-cloud-pc",
+      "category": "HOME LAB",
+      "year": "2026",
+      "read_minutes": 5,
+      "published": true,
+      "source_url": "https://www.linkedin.com/pulse/how-i-built-personal-cloud-pc-home-accessible-from-anywhere-daki%C4%87-7u9if",
+      "en": {
+        "title": "How I Built a Personal Cloud PC at Home",
+        "summary": "A small computer at home, reachable from different devices. What I set up, why I did it, and what the experiment taught me.",
+        "sections": [
+          {
+            "heading": "The idea: one computer, many windows",
+            "paragraphs": [
+              "I enjoy technology most when I can actually try something instead of just reading about it. That is how my private Cloud PC experiment started. I wanted to know whether a small computer at home could become my main working environment while my laptop, tablet and phone acted as ways to reach it.",
+              "The appeal was not to build an elaborate data centre. It was to simplify things: keep the applications and files where they belong, and access the same environment when moving between devices."
+            ]
+          },
+          {
+            "heading": "A small machine, a secure connection",
+            "paragraphs": [
+              "I used a compact Windows mini-PC as the machine that stays at home. The important part was not raw power but dependable operation, a wired network connection and a way to reach the computer without opening an unnecessary public door into the home network.",
+              "I experimented with Twingate for private access. For the desktop itself I tried GPU-assisted streaming with Sunshine and Moonlight, and kept RustDesk as another way to administer the machine. Each option solved a different part of the problem; I would not treat any of them as a universal answer."
+            ]
+          },
+          {
+            "heading": "Files and the everyday experience",
+            "paragraphs": [
+              "Once the machine was available remotely, it was natural to consider file storage. Nextcloud added a personal cloud component, so the same setup could serve both as a workstation and a home-controlled file service.",
+              "The interesting question was whether the experience remained useful outside a perfect home network. Latency, display resolution, the quality of a remote connection and everyday maintenance matter more than the impressive technical diagram."
+            ]
+          },
+          {
+            "heading": "What I took away",
+            "paragraphs": [
+              "This project reminded me that a good solution is not defined by how many technologies it contains. It is defined by how much effort it removes from a real task. For me, the experiment was an inexpensive way to learn more about remote access, self-hosting and the practical boundary between personal computing and cloud services.",
+              "I still see it as a personal experiment, not a recommendation that everyone should replace managed cloud services. Backups, updates and security remain my responsibility when the server lives at home."
+            ]
+          }
+        ]
+      },
+      "hr": {
+        "title": "Kako sam kod kuće složio vlastiti Cloud PC",
+        "summary": "Malo računalo kod kuće, dostupno s različitih uređaja. Što sam složio, zašto i što sam kroz testiranje naučio.",
+        "sections": [
+          {
+            "heading": "Ideja: jedno računalo, više načina pristupa",
+            "paragraphs": [
+              "Najzanimljivije mi je kad tehnologiju mogu stvarno isprobati, a ne samo čitati o njoj. Tako je počeo i eksperiment s privatnim Cloud PC-jem. Htio sam vidjeti može li jedno malo kućno računalo postati moje glavno radno okruženje, a Mac, tablet i telefon samo različiti načini pristupa.",
+              "Cilj nije bio graditi vlastiti podatkovni centar. Htio sam pojednostaviti svakodnevni rad: aplikacije i datoteke ostaju na jednom mjestu, a ja im pristupam s uređaja koji mi je u tom trenutku pri ruci."
+            ]
+          },
+          {
+            "heading": "Malo računalo i sigurna veza",
+            "paragraphs": [
+              "Za osnovu sam koristio kompaktni Windows mini-PC koji stalno radi kod kuće. Važnije od same snage bile su pouzdanost, žična mrežna veza i pristup bez nepotrebnog otvaranja kućne mreže prema internetu.",
+              "Za privatni pristup testirao sam Twingate. Za udaljeni rad isprobavao sam Sunshine i Moonlight, a RustDesk mi je poslužio kao još jedna mogućnost administriranja. Svaki alat rješava dio problema i ne postoji jedna kombinacija koja će svakome biti najbolja."
+            ]
+          },
+          {
+            "heading": "Datoteke i stvarna upotreba",
+            "paragraphs": [
+              "Kad računalo već može biti dostupno izvana, logično je razmišljati i o pohrani datoteka. Nextcloud je dodao dio privatnog clouda pa isto računalo može služiti kao radna površina i kao sustav za pristup vlastitim podacima.",
+              "Pravi test nije lijep dijagram arhitekture nego svakodnevni rad. Kašnjenje veze, rezolucija ekrana, kvaliteta interneta i održavanje sustava često su važniji od popisa instaliranih servisa."
+            ]
+          },
+          {
+            "heading": "Što sam naučio",
+            "paragraphs": [
+              "Ovaj me projekt podsjetio da dobro rješenje ne definira broj korištenih tehnologija, nego koliko pojednostavljuje stvarni posao. Bio mi je to vrlo praktičan način da bolje razumijem udaljeni pristup, samostalno hostanje i granicu između osobnog računala i cloud usluga.",
+              "I dalje ga promatram kao osobni eksperiment, a ne savjet da svi trebaju napustiti komercijalne cloud servise. Kad poslužitelj radi kod kuće, sigurnost, ažuriranja i sigurnosne kopije ostaju moja odgovornost."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "headless-cms-choice",
+      "category": "DIGITAL PRODUCTS",
+      "year": "2024",
+      "read_minutes": 5,
+      "published": true,
+      "source_url": "https://www.linkedin.com/pulse/choosing-right-headless-cms-your-business-marko-daki%C4%87-7mc7f",
+      "en": {
+        "title": "Choosing a Headless CMS: Start With the Business",
+        "summary": "Content modelling, integrations and ownership matter more than a fashionable platform name.",
+        "sections": [
+          {
+            "heading": "The decision starts before the software demo",
+            "paragraphs": [
+              "Choosing a CMS can look like a technical procurement exercise. In practice, the decision shapes the work of content editors, developers and product teams for years. It is worth starting with a simple question: what does the business actually need to publish, change and manage?",
+              "A good requirements workshop often reveals more than a polished product demonstration. The publishing process, approvals, multiple languages and the need to reuse content across channels all influence the outcome."
+            ]
+          },
+          {
+            "heading": "What I would evaluate",
+            "paragraphs": [
+              "I look at content models, API capabilities, integration with the existing architecture, editor experience, permissions, search visibility and the operating model after launch. The cost is not only the licence fee; it includes implementation, maintenance and the time people spend working around unnecessary complexity.",
+              "Strapi, Contentful, Sanity and other headless options can all make sense, but not for the same organisation. Their value depends on how well the product fits the team and the systems around it."
+            ]
+          },
+          {
+            "heading": "Headless is an architectural choice, not a shortcut",
+            "paragraphs": [
+              "Separating content from presentation gives teams freedom to deliver different experiences. It also moves more responsibility into the frontend, infrastructure, preview workflows and integration architecture. If those responsibilities are not understood, flexibility can become overhead.",
+              "For eCommerce, I pay particular attention to the boundary between marketing content and transactional data. Product information, price, availability and checkout belong to a broader ecosystem. The CMS should work with that ecosystem rather than become a second source of truth."
+            ]
+          },
+          {
+            "heading": "My conclusion",
+            "paragraphs": [
+              "The best CMS is the one the organisation can actually operate well. I would rather choose a smaller, sustainable solution that editors understand and engineers can maintain than an impressive platform that introduces a dependency every time somebody needs to publish a page.",
+              "The right technology creates room for better decisions. It should never be the strategy by itself."
+            ]
+          }
+        ]
+      },
+      "hr": {
+        "title": "Kako birati headless CMS: prvo poslovanje, zatim tehnologija",
+        "summary": "Model sadržaja, integracije i odgovornosti važniji su od naziva moderne platforme.",
+        "sections": [
+          {
+            "heading": "Odluka počinje prije demonstracije alata",
+            "paragraphs": [
+              "Odabir CMS-a često izgleda kao tehnička nabava. U stvarnosti utječe na rad urednika, developera i produktnih timova godinama nakon implementacije. Zato bih krenuo od jednostavnog pitanja: što poslovanje zaista treba objavljivati, mijenjati i održavati?",
+              "Dobra radionica sa stvarnim korisnicima sustava često otkrije više od lijepe demonstracije. Način odobravanja sadržaja, više jezika i potreba za ponovnim korištenjem sadržaja na različitim kanalima mijenjaju kriterije izbora."
+            ]
+          },
+          {
+            "heading": "Što bih uspoređivao",
+            "paragraphs": [
+              "Gledao bih modele sadržaja, mogućnosti API-ja, integracije, iskustvo urednika, prava pristupa, SEO i način održavanja nakon produkcije. Trošak nije samo licenca, nego i implementacija, nadogradnje i vrijeme koje ljudi troše na zaobilazna rješenja.",
+              "Strapi, Contentful, Sanity i druga headless rješenja imaju svoje mjesto, ali ne u svakoj organizaciji. Vrijednost ovisi o tome koliko se dobro uklapaju u postojeći tim i sustave."
+            ]
+          },
+          {
+            "heading": "Headless je arhitekturni izbor, ne prečac",
+            "paragraphs": [
+              "Razdvajanje sadržaja i prikaza omogućava različita korisnička iskustva, ali prenosi i više odgovornosti na frontend, infrastrukturu, pregled prije objave i integracije. Ako te odgovornosti nisu jasne, fleksibilnost brzo postaje dodatni posao.",
+              "Kod eCommercea posebno pazim na odnos marketinškog sadržaja i transakcijskih podataka. Informacije o proizvodu, cijene, raspoloživost i naplata dio su šireg ekosustava. CMS se mora uklopiti u njega, a ne postati još jedan paralelni izvor istine."
+            ]
+          },
+          {
+            "heading": "Zaključak",
+            "paragraphs": [
+              "Najbolji CMS nije nužno onaj s najviše mogućnosti, nego onaj koji organizacija može dobro koristiti i održavati. Radije bih izabrao održiv sustav koji urednici razumiju i razvoj može nadograđivati nego impresivnu platformu koja stvara ovisnost za svaku sitnu promjenu.",
+              "Tehnologija treba omogućiti bolje odluke. Sama po sebi nije strategija."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "culture-and-delivery",
+      "category": "LEADERSHIP",
+      "year": "2024",
+      "read_minutes": 5,
+      "published": true,
+      "source_url": "https://www.linkedin.com/pulse/why-culture-beats-strategy-creating-workplace-drives-success-daki%C4%87-8kvdf",
+      "en": {
+        "title": "Why Team Culture Shapes Delivery",
+        "summary": "Trust, healthy disagreement and clear ownership make strategies executable.",
+        "sections": [
+          {
+            "heading": "A great plan does not deliver itself",
+            "paragraphs": [
+              "In projects, we invest a lot of energy in roadmaps, milestones and governance. Those things matter. But even an excellent plan becomes fragile if people do not trust one another or feel safe explaining that something is not working.",
+              "The most useful teams I have worked with were not the teams without disagreement. They were the teams in which disagreement could happen early, respectfully and in front of the people able to change the decision."
+            ]
+          },
+          {
+            "heading": "The everyday behaviours behind good culture",
+            "paragraphs": [
+              "For me, a healthy culture is visible in small actions: asking questions before development starts, admitting uncertainty, sharing bad news while there is still time to act and giving credit to the people who solve the hard problems.",
+              "Psychological safety should not be confused with the absence of accountability. Teams work better when expectations are clear and people can challenge an approach without making the discussion personal."
+            ]
+          },
+          {
+            "heading": "Leadership is a practical discipline",
+            "paragraphs": [
+              "A manager creates conditions through the way meetings are run, priorities are explained and trade-offs are made. If a team must interpret every request differently, no project management tool will resolve the confusion for them.",
+              "I have learned to value the people who can translate between business needs, technical constraints and operational reality. Many delays begin long before a developer starts coding: they begin when nobody notices that different people understood the same request differently."
+            ]
+          },
+          {
+            "heading": "What I would keep",
+            "paragraphs": [
+              "Write down what success looks like. Give teams room to explain risks. Ask whether everyone understands the problem before discussing the solution. Make ownership explicit and review what happened without turning every mistake into a search for someone to blame.",
+              "Strategy sets a direction. Culture determines whether people can move in that direction together."
+            ]
+          }
+        ]
+      },
+      "hr": {
+        "title": "Zašto kultura tima utječe na isporuku",
+        "summary": "Povjerenje, kvalitetna rasprava i jasne odgovornosti omogućuju da strategija postane stvarnost.",
+        "sections": [
+          {
+            "heading": "Dobar plan neće se isporučiti sam",
+            "paragraphs": [
+              "Na projektima puno vremena ulažemo u roadmapove, rokove i izvještavanje. Sve je to važno. Ali i odličan plan postaje krhak ako ljudi nemaju povjerenja jedni u druge ili se ne osjećaju slobodno reći da nešto ne funkcionira.",
+              "Najbolji timovi s kojima sam radio nisu bili oni bez neslaganja. Bili su to timovi u kojima se moglo na vrijeme i bez osobnog sukoba otvoreno raspravljati o odluci."
+            ]
+          },
+          {
+            "heading": "Kultura se vidi u svakodnevnim stvarima",
+            "paragraphs": [
+              "Za mene se dobra kultura vidi u malim postupcima: pitamo prije nego razvoj krene, priznajemo kad nešto ne znamo, lošu vijest iznesemo dok još možemo reagirati i priznamo doprinos ljudima koji rješavaju najteže probleme.",
+              "Psihološka sigurnost nije isto što i izostanak odgovornosti. Timovi su učinkovitiji kad su očekivanja jasna, a pristup se može preispitati bez osobnog napada."
+            ]
+          },
+          {
+            "heading": "Vođenje je praktičan posao",
+            "paragraphs": [
+              "Voditelj stvara uvjete načinom na koji se vode sastanci, objašnjavaju prioriteti i donose odluke. Ako svatko isti zahtjev tumači drukčije, nijedan projektni alat sam po sebi neće riješiti nesporazum.",
+              "Naučio sam cijeniti ljude koji mogu prevoditi između poslovnih potreba, tehničkih ograničenja i operativne stvarnosti. Mnogi problemi počinju puno prije prve linije koda — kad nitko ne primijeti da su svi istu rečenicu razumjeli na svoj način."
+            ]
+          },
+          {
+            "heading": "Što bih zadržao",
+            "paragraphs": [
+              "Zapiši što znači uspjeh. Daj ljudima prostor da objasne rizik. Provjeri razumiju li svi problem prije rasprave o rješenju. Jasno odredi odgovornost i nakon isporuke analiziraj što se dogodilo bez automatskog traženja krivca.",
+              "Strategija daje smjer. Kultura određuje mogu li ljudi tim smjerom zajedno."
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }
