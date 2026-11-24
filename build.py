@@ -37,7 +37,7 @@ def contact():
 def head(title, description, prefix='', canonical_path=None):
     canonical = f'https://markodakic.github.io/{canonical_path}' if canonical_path is not None else None
     seo = f'<link rel="canonical" href="{esc(canonical)}"><meta property="og:url" content="{esc(canonical)}">' if canonical else ''
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff"><meta name="description" content="{esc(description)}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:type" content="website"><meta property="og:image" content="https://markodakic.github.io/assets/og-card.png">{seo}<meta name="twitter:card" content="summary_large_image"><meta name="color-scheme" content="light dark"><link rel="icon" type="image/svg+xml" href="{prefix}assets/favicon.svg?v=6"><link rel="stylesheet" href="{prefix}style.css?v=8"><script src="{prefix}script.js" defer></script><title>{esc(title)}</title></head><body id="top"><a class="skip-link" href="#main">Skip to content</a>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff"><meta name="description" content="{esc(description)}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:type" content="website"><meta property="og:image" content="https://markodakic.github.io/assets/og-card.png">{seo}<meta name="twitter:card" content="summary_large_image"><meta name="color-scheme" content="light dark"><link rel="icon" type="image/svg+xml" href="{prefix}assets/favicon.svg?v=6"><link rel="stylesheet" href="{prefix}style.css?v=11"><script src="{prefix}script.js" defer></script><title>{esc(title)}</title></head><body id="top"><a class="skip-link" href="#main">Skip to content</a>'''
 
 
 
@@ -53,18 +53,14 @@ def company_lockup(company):
 
 
 def project_visual(p, prefix='', detail=False):
-    """Show verified project image when its path exists, never generated initials artwork."""
+    """Render each project visual with matching image badge and visible caption."""
     path = str(p.get('image') or '').strip()
     if not path.startswith('assets/') or not (ROOT / path).is_file():
         return ''
     alt = str(p.get('image_alt') or f"Project visual: {p['company']}")
-    css = 'project-real-visual project-real-visual-detail' if detail else 'project-real-visual'
-    note = ''
-    if p.get('id') in ('spryker-mstart', 'konzum-recommendation-engine'):
-        css += ' ' + ('project-card-visual' if not detail else '')
-        caption_css = 'concept-caption' if detail else 'card-ai-note'
-        note = f'<figcaption class="{caption_css}">{t("AI-generated image", "AI-generated image")}</figcaption>'
-    return f'<figure class="{css.strip()}"><img src="{prefix}{esc(path)}" alt="{esc(alt)}" loading="lazy">{note}</figure>'
+    css = 'project-real-visual project-real-visual-detail' if detail else 'project-real-visual project-card-visual'
+    disclosure = 'Project photo' if p.get('id') == 'ekupi-outdoor-parcel-lockers' else 'AI-generated image'
+    return f'<figure class="{css}"><div class="project-image-media"><img src="{prefix}{esc(path)}" alt="{esc(alt)}" loading="lazy" decoding="async"><span class="project-image-overlay" aria-hidden="true">{disclosure}</span></div><figcaption class="concept-caption">{disclosure}</figcaption></figure>'
 
 def project_card(p,prefix='',i=0):
     d=p['en'];h=p['hr']; tags=' '.join(p['category']);
