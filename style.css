@@ -313,3 +313,16 @@ html[data-theme='dark'] .work-card .company-lockup img{background:#fff;border-co
 .experience-ribbon .company-lockup{font-size:14px}
 .experience-ribbon .company-lockup img{width:36px;height:36px;flex-basis:36px}
 }
+
+/* ACCENT AND LOGO V8: light blue, white and restrained coral */
+:root{--accent-warm:#E88D6D;--accent-warm-soft:#FFF5EF;--accent-warm-line:#F1D7CA}
+.hero-copy .hello{background:var(--accent-warm-soft);border-color:var(--accent-warm-line);color:#43556D}
+.hero-roleline::before{content:"";display:inline-block;width:7px;height:7px;margin:0 10px 2px 0;border-radius:50%;background:var(--accent-warm)}
+.hero-proof .proof-item:nth-child(2) strong span{color:var(--accent-warm)!important}
+.cap-grid .cap:nth-child(2){background:linear-gradient(135deg,#fff8f3,#f8ede8)}
+.lab-home .kicker,.lab-page-hero .kicker{color:#BC664D}
+.work-card:hover .card-kicker>span:last-child{color:var(--accent-warm)}
+.company-lockup img[src$="/ekupi.svg"]{padding:4px;object-fit:contain}
+.company-lockup img[src$="/croatia-osiguranje.svg"]{padding:5px;object-fit:contain}
+html[data-theme='dark'] .hero-copy .hello{background:#312C38;border-color:#51475B;color:#F8EDE8}
+html[data-theme='dark'] .cap-grid .cap:nth-child(2){background:#293A4F}

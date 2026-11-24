@@ -37,15 +37,19 @@ def contact():
 def head(title, description, prefix='', canonical_path=None):
     canonical = f'https://markodakic.github.io/{canonical_path}' if canonical_path is not None else None
     seo = f'<link rel="canonical" href="{esc(canonical)}"><meta property="og:url" content="{esc(canonical)}">' if canonical else ''
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff"><meta name="description" content="{esc(description)}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:type" content="website"><meta property="og:image" content="https://markodakic.github.io/assets/og-card.png">{seo}<meta name="twitter:card" content="summary_large_image"><meta name="color-scheme" content="light dark"><link rel="icon" type="image/svg+xml" href="{prefix}assets/favicon.svg?v=6"><link rel="stylesheet" href="{prefix}style.css?v=7"><script src="{prefix}script.js" defer></script><title>{esc(title)}</title></head><body id="top"><a class="skip-link" href="#main">Skip to content</a>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff"><meta name="description" content="{esc(description)}"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:type" content="website"><meta property="og:image" content="https://markodakic.github.io/assets/og-card.png">{seo}<meta name="twitter:card" content="summary_large_image"><meta name="color-scheme" content="light dark"><link rel="icon" type="image/svg+xml" href="{prefix}assets/favicon.svg?v=6"><link rel="stylesheet" href="{prefix}style.css?v=8"><script src="{prefix}script.js" defer></script><title>{esc(title)}</title></head><body id="top"><a class="skip-link" href="#main">Skip to content</a>'''
 
 
 
 COMPANY_DOMAINS = {'eKupi':'ekupi.hr','mStart':'mstart.hr','Konzum':'konzum.hr','Croatia osiguranje':'crosig.hr'}
+COMPANY_LOGOS = {'eKupi':'assets/logos/ekupi.svg','Croatia osiguranje':'assets/logos/croatia-osiguranje.svg'}
 
 def company_lockup(company):
     domain = COMPANY_DOMAINS.get(company)
-    return ('<span class="company-lockup"><img src="https://www.google.com/s2/favicons?domain='+domain+'&amp;sz=64" alt="" loading="lazy"><span>'+esc(company)+'</span></span>') if domain else esc(company)
+    if not domain:
+        return esc(company)
+    src = COMPANY_LOGOS.get(company) or 'https://www.google.com/s2/favicons?domain='+domain+'&sz=64'
+    return '<span class="company-lockup"><img src="'+esc(src)+'" alt="" loading="lazy"><span>'+esc(company)+'</span></span>'
 
 
 def project_visual(p, prefix='', detail=False):
